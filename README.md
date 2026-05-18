@@ -2,7 +2,7 @@
 
 > **HW/SW co-design labs on Xilinx Zynq-7010 (ZyBo) using Vivado & Vitis 2025.2**
 
-Tổng hợp các bài thực hành môn **Thiết kế kết hợp Phần cứng và Phần mềm** (Semester 6) — phát triển song song HW (FPGA) và SW (ARM) trên cùng một SoC.
+Tổng hợp các bài thực hành môn **Thiết kế kết hợp Phần cứng và Phần mềm** — phát triển song song HW (FPGA) và SW (ARM) trên cùng một SoC.
 
 ---
 
@@ -44,32 +44,11 @@ Tổng hợp các bài thực hành môn **Thiết kế kết hợp Phần cứn
 
 | Lab | Tên | Nội dung chính | Trạng thái |
 |-----|-----|----------------|------------|
-| [Lab 1](./lab1-led-axi-gpio/) | First Designs on Zynq | PS điều khiển 4 LED qua AXI GPIO | ✅ |
-| Lab 2 | *(cập nhật sau)* | — | 🔜 |
-| Lab 3 | *(cập nhật sau)* | — | 🔜 |
-
+| [Lab 1](./LAB_1/) | First Designs on Zynq | PS điều khiển 4 LED qua AXI GPIO | ✅ |
+| [Lab 2](./LAB_2/) | *(cập nhật sau)* | — | 🔜 |
+| [Lab 3](./LAB_3/) | *(cập nhật sau)* | — | 🔜 |
+| [Lab 4](./LAB_4/) | *(cập nhật sau)* | — | 🔜 |
 ---
-
-## Cấu trúc repository
-
-```
-.
-├── README.md                  # File này — tổng quan môn học
-├── .gitignore                 # Loại trừ file rác Vivado/Vitis
-├── lab1-led-axi-gpio/
-│   ├── README.md              # Hướng dẫn Lab 1
-│   ├── hw/
-│   │   ├── bd/                # Block Design dạng Tcl
-│   │   ├── constraints/       # XDC pin assignment
-│   │   └── *.xsa              # Hardware handoff
-│   └── sw/
-│       └── src/               # Code C cho Vitis
-├── lab2-.../
-└── docs/                      # Tài liệu chung, ghi chú
-```
-
----
-
 ## Quy trình HW/SW Co-design trên Zynq
 
 ```
