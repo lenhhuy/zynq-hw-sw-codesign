@@ -1,0 +1,9 @@
+# ninja log v5
+3	141	0	CMakeFiles/print_build_info	d87544fa3764db73
+3	141	0	C:/zynq/led_test/build/CMakeFiles/print_build_info	d87544fa3764db73
+142	295	8007760902587769	CMakeFiles/led_test.elf.dir/LED_test_tut_1C.c.obj	23187a69f2939930
+295	432	8007760903455739	led_test.elf	550a693eba69120
+3	147	0	CMakeFiles/print_build_info	d87544fa3764db73
+3	147	0	C:/zynq/led_test/build/CMakeFiles/print_build_info	d87544fa3764db73
+148	299	8007777210233651	CMakeFiles/led_test.elf.dir/LED_test_tut_1C.c.obj	23187a69f2939930
+299	455	8007777211319424	led_test.elf	550a693eba69120

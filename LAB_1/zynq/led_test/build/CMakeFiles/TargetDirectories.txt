@@ -1,0 +1,4 @@
+C:/zynq/led_test/build/CMakeFiles/led_test.elf.dir
+C:/zynq/led_test/build/CMakeFiles/print_build_info.dir
+C:/zynq/led_test/build/CMakeFiles/edit_cache.dir
+C:/zynq/led_test/build/CMakeFiles/rebuild_cache.dir
