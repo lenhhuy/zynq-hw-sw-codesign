@@ -1,0 +1,1 @@
+{"generate.platform":[{"uri":"C:\\zynq\\zybo_platform\\vitis-comp.json","md5":"8a2ac5a9cbb26d781438072aa890d768"},{"uri":"C:\\zynq\\zybo_platform\\zynq_fsbl\\zynq_fsbl_bsp\\bsp.yaml","md5":"2948e51b39569b8fe9f3bbb382530971"},{"uri":"C:\\zynq\\zybo_platform\\ps7_cortexa9_0\\standalone_ps7_cortexa9_0\\bsp\\bsp.yaml","md5":"7b024674826cffa64b3d74329c37263f"}]}

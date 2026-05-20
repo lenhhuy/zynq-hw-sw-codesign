@@ -1,0 +1,4 @@
+D:/Semester_6/HWSW/LAB2/interrupt_counter/build/CMakeFiles/interrupt_counter.elf.dir
+D:/Semester_6/HWSW/LAB2/interrupt_counter/build/CMakeFiles/print_build_info.dir
+D:/Semester_6/HWSW/LAB2/interrupt_counter/build/CMakeFiles/edit_cache.dir
+D:/Semester_6/HWSW/LAB2/interrupt_counter/build/CMakeFiles/rebuild_cache.dir
