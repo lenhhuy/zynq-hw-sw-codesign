@@ -1,6 +1,0 @@
-2026-05-18 09:20:47 [info] : [Platform Server] Creating platform zybo_platform  output stream finished - zybo_platform. 
-2026-05-18 09:26:04 [info] : [Platform Server] Generate platform output stream finished - zybo_platform. 
-2026-05-18 09:54:47 [info] : [Platform Server] Generate platform output stream finished - zybo_platform. 
-2026-05-18 09:54:50 [info] : [Build Server] Build output stream finished - led_test::. 
-2026-05-18 10:21:59 [info] : [Platform Server] Generate platform output stream finished - zybo_platform. 
-2026-05-18 10:22:01 [info] : [Build Server] Build output stream finished - led_test::. 
