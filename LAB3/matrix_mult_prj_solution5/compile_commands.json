@@ -1,0 +1,27 @@
+[
+  {
+    "directory": "D:\\Semester_6\\HWSW\\LAB3\\matrix_mult_prj_solution5",
+    "arguments": [
+      "C:\\AMDDesignTools\\2025.2\\Vitis\\win64\\tools\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\AMDDesignTools\\2025.2\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\AMDDesignTools\\2025.2\\Vitis\\common\\technology\\autopilot",
+      "-fhlstoplevel=matrix_mult",
+      "-c",
+      "D:\\Semester_6\\HWSW\\LAB3\\solution5\\matrix_mult.cpp"
+    ],
+    "file": "D:\\Semester_6\\HWSW\\LAB3\\solution5\\matrix_mult.cpp"
+  },
+  {
+    "directory": "D:\\Semester_6\\HWSW\\LAB3\\matrix_mult_prj_solution5",
+    "arguments": [
+      "C:\\AMDDesignTools\\2025.2\\Vitis\\win64\\tools\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\AMDDesignTools\\2025.2\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=C:\\AMDDesignTools\\2025.2\\Vitis\\include",
+      "-c",
+      "D:\\Semester_6\\HWSW\\LAB3\\solution5\\matrix_mult_test.cpp"
+    ],
+    "file": "D:\\Semester_6\\HWSW\\LAB3\\solution5\\matrix_mult_test.cpp"
+  }
+]

@@ -1,0 +1,1303 @@
+  **** HLS Build v2025.2 6295257
+Sourcing Tcl script 'D:/Semester_6/HWSW/TCL_LAB3/script.tcl'
+INFO: [HLS 200-1510] Running: open_project -reset matrix_mult_automation_prj 
+WARNING: [HLS 200-2182] The 'matrix_mult_automation_prj' project will not automatically appear within Vitis IDE workspaces and is meant only for TCL batch use.  Please use open_component instead of open_project/open_solution to generate Vitis IDE compatible component files and directory structure.
+Resolution: For help on HLS 200-2182 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-2182.html
+INFO: [HLS 200-10] Opening and resetting solution 'D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj'.
+INFO: [HLS 200-1510] Running: set_top matrix_mult 
+INFO: [HLS 200-1510] Running: add_files matrix_mult.cpp 
+INFO: [HLS 200-10] Adding design file 'matrix_mult.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb matrix_mult_test.cpp 
+INFO: [HLS 200-10] Adding test bench file 'matrix_mult_test.cpp' to the project
+INFO: [HLS 200-1510] Running: open_solution -reset Solution1 -flow_target vivado 
+INFO: [HLS 200-10] Creating and opening solution 'D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution1'.
+INFO: [HLS 200-10] Cleaning up the solution database.
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1510] Running: set_part xc7z010clg400-1 
+INFO: [HLS 200-1611] Setting target device to 'xc7z010-clg400-1'
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: config_compile -pipeline_loops 0 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.403 seconds; current allocated memory: 379.309 MB.
+INFO: [HLS 200-2191] C-Synthesis will use clang-16 as the compiler
+INFO: [HLS 200-10] Analyzing design file 'matrix_mult.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 2.241 seconds; current allocated memory: 381.566 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 55 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution1/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 41 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution1/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 31 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution1/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 28 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution1/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 28 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution1/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 27 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution1/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 27 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution1/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 27 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution1/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 27 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution1/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 28 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution1/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 28 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution1/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 27 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution1/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 27 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution1/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 27 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution1/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 33 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution1/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 43 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution1/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 7.957 seconds; current allocated memory: 383.688 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.001 seconds; current allocated memory: 383.688 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.034 seconds; current allocated memory: 388.832 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.027 seconds; current allocated memory: 391.777 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.054 seconds; current allocated memory: 413.715 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.056 seconds; current allocated memory: 413.738 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'matrix_mult' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'matrix_mult' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22) to 3 in order to utilize available DSP registers.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.146 seconds; current allocated memory: 413.738 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.021 seconds; current allocated memory: 413.738 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'matrix_mult' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'matrix_mult/a' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'matrix_mult/b' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'matrix_mult/prod' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'matrix_mult' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_8ns_8ns_16s_16_4_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'matrix_mult'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.039 seconds; current allocated memory: 414.969 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.224 seconds; current allocated memory: 418.574 MB.
+INFO: [HLS 200-2225] Wrote inferred directives to file D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution1/syn/inferred_directives.ini
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.42 seconds; current allocated memory: 419.875 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for matrix_mult.
+INFO: [VLOG 209-307] Generating Verilog RTL for matrix_mult.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 293.75 MHz
+INFO: [HLS 200-2161] Finished Command csynth_design Elapsed time: 00:00:11; Allocated memory: 40.742 MB.
+INFO: [HLS 200-1510] Running: cosim_design 
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+   Build using "C:/AMDDesignTools/2025.2/Vitis/win64/tools/clang-16/bin/clang++"
+   Compiling apatb_matrix_mult.cpp
+   Compiling matrix_mult.cpp_pre.cpp.tb.cpp
+   Compiling matrix_mult_test.cpp_pre.cpp.tb.cpp
+   Compiling apatb_matrix_mult_ir.ll
+   Generating cosim.tv.exe
+INFO: [COSIM 212-302] Starting C TB testing ... 
+Test passed!
+INFO: [COSIM 212-333] Generating C post check test bench ...
+INFO: [COSIM 212-12] Generating RTL test bench ...
+pdir_merged readonly
+pdir_merged readonly
+pdir_merged writeonly
+INFO: [COSIM 212-1] *** C/RTL co-simulation file generation completed. ***
+INFO: [COSIM 212-323] Starting verilog simulation. 
+INFO: [COSIM 212-15] Starting XSIM ...
+
+D:\Semester_6\HWSW\TCL_LAB3\matrix_mult_automation_prj\Solution1\sim\verilog>set PATH= 
+
+D:\Semester_6\HWSW\TCL_LAB3\matrix_mult_automation_prj\Solution1\sim\verilog>call C:/AMDDesignTools/2025.2/Vivado/bin/xelab xil_defaultlib.apatb_matrix_mult_top xil_defaultlib.glbl -Oenable_linking_all_libraries -prj matrix_mult.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm  -L floating_point_v7_1_21 -L floating_point_v7_0_26 --lib "ieee_proposed=./ieee_proposed" -L uvm -relax -i ./svr -i ./axivip -i ./svtb -i ./file_agent -i ./matrix_mult_subsystem  -s matrix_mult  
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_matrix_mult_top xil_defaultlib.glbl -Oenable_linking_all_libraries -prj matrix_mult.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_1_21 -L floating_point_v7_0_26 --lib ieee_proposed=./ieee_proposed -L uvm -relax -i ./svr -i ./axivip -i ./svtb -i ./file_agent -i ./matrix_mult_subsystem -s matrix_mult 
+Multi-threading is on. Using 30 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution1/sim/verilog/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution1/sim/verilog/AESL_automem_a.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_a
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution1/sim/verilog/AESL_automem_b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_b
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution1/sim/verilog/AESL_automem_prod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_prod
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution1/sim/verilog/matrix_mult.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_matrix_mult_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution1/sim/verilog/matrix_mult.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module matrix_mult
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution1/sim/verilog/matrix_mult_mac_muladd_8ns_8ns_16s_16_4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module matrix_mult_mac_muladd_8ns_8ns_16s_16_4_1_DSP48_0
+INFO: [VRFC 10-311] analyzing module matrix_mult_mac_muladd_8ns_8ns_16s_16_4_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution1/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution1/sim/verilog/file_agent/file_agent_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution1/sim/verilog/matrix_mult_subsystem/matrix_mult_subsystem_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution1/sim/verilog/svtb/misc_interface.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution1/sim/verilog/svtb/sv_module_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sv_module_top
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/proj/primebuilds/9999.0_PRIME_0428_0031/installs/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 4356. Module uvm_pkg doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_sv_module_top_sv
+Compiling package uvm.uvm_pkg
+Compiling package std.std
+Compiling package xil_defaultlib.matrix_mult_subsystem_pkg
+Compiling package xil_defaultlib.file_agent_pkg
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+Compiling module xil_defaultlib.matrix_mult_mac_muladd_8ns_8ns_1...
+Compiling module xil_defaultlib.matrix_mult_mac_muladd_8ns_8ns_1...
+Compiling module xil_defaultlib.matrix_mult
+Compiling module xil_defaultlib.misc_interface_default
+Compiling module xil_defaultlib.sv_module_top
+Compiling module xil_defaultlib.AESL_automem_a
+Compiling module xil_defaultlib.AESL_automem_b
+Compiling module xil_defaultlib.AESL_automem_prod
+Compiling module xil_defaultlib.nodf_module_intf_default
+Compiling module xil_defaultlib.seq_loop_intf(FSM_WIDTH=8)
+Compiling module xil_defaultlib.dataflow_monitor_1
+Compiling module xil_defaultlib.apatb_matrix_mult_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot matrix_mult
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Tue May 26 23:55:47 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/matrix_mult/xsim_script.tcl
+# xsim {matrix_mult} -testplusarg UVM_VERBOSITY=UVM_NONE -testplusarg UVM_TESTNAME=matrix_mult_test_lib -testplusarg UVM_TIMEOUT=20000000000000 -autoloadwcfg -tclbatch {matrix_mult.tcl}
+Time resolution is 1 ps
+source matrix_mult.tcl
+## run all
+UVM_INFO C:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO C:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18648) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO C:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18752) @ 0: reporter [UVMTOP] UVM testbench topology:
+-----------------------------------------------------------------------
+Name                         Type                           Size  Value
+-----------------------------------------------------------------------
+uvm_test_top                 matrix_mult_test_lib           -     @342 
+  top_env                    matrix_mult_env                -     @353 
+    matrix_mult_virtual_sqr  matrix_mult_virtual_sequencer  -     @390 
+      rsp_export             uvm_analysis_export            -     @399 
+      seq_item_export        uvm_seq_item_pull_imp          -     @517 
+      arbitration_queue      array                          0     -    
+      lock_queue             array                          0     -    
+      num_last_reqs          integral                       32    'd1  
+      num_last_rsps          integral                       32    'd1  
+    refm                     matrix_mult_reference_model    -     @368 
+      trans_num_idx          integral                       32    'h0  
+    subsys_mon               matrix_mult_subsystem_monitor  -     @381 
+      scbd                   matrix_mult_scoreboard         -     @537 
+        refm                 matrix_mult_reference_model    -     @368 
+          trans_num_idx      integral                       32    'h0  
+    refm                     matrix_mult_reference_model    -     @368 
+    matrix_mult_virtual_sqr  matrix_mult_virtual_sequencer  -     @390 
+    matrix_mult_cfg          matrix_mult_config             -     @367 
+      check_ena              integral                       32    'h0  
+      cover_ena              integral                       32    'h0  
+-----------------------------------------------------------------------
+
+UVM_INFO C:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "125000"
+// RTL Simulation : 1 / 1 [100.00%] @ "7025000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 7075 ns : File "C:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
+## quit
+INFO: [Common 17-206] Exiting xsim at Tue May 26 23:55:49 2026...
+INFO: [COSIM 212-316] Starting C post checking ...
+Test passed!
+INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
+INFO: [COSIM 212-211] II is measurable only when transaction number is greater than 1 in RTL simulation. Otherwise, they will be marked as all NA. If user wants to calculate them, please make sure there are at least 2 transactions in RTL simulation.
+INFO: [HLS 200-2161] Finished Command cosim_design Elapsed time: 00:00:33; Allocated memory: 7.258 MB.
+INFO: [HLS 200-1510] Running: open_solution -reset Solution2 -flow_target vivado 
+INFO: [HLS 200-10] Creating and opening solution 'D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution2'.
+INFO: [HLS 200-10] Cleaning up the solution database.
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1510] Running: set_part xc7z010clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: set_directive_pipeline matrix_mult/Product -II 1 
+INFO: [HLS 200-1510] Running: config_compile -pipeline_loops 0 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.457 seconds; current allocated memory: 480.723 MB.
+INFO: [HLS 200-2191] C-Synthesis will use clang-16 as the compiler
+INFO: [HLS 200-10] Analyzing design file 'matrix_mult.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 3.379 seconds; current allocated memory: 480.723 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 55 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution2/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 41 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution2/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 31 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution2/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 28 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution2/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 28 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution2/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 27 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution2/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 27 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution2/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 27 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution2/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 27 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution2/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 28 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution2/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 28 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution2/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 27 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution2/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 27 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution2/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 27 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution2/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 33 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution2/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 44 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution2/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 8.965 seconds; current allocated memory: 480.727 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.001 seconds; current allocated memory: 480.727 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.028 seconds; current allocated memory: 480.727 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.026 seconds; current allocated memory: 481.566 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.049 seconds; current allocated memory: 501.906 MB.
+INFO: [HLS 200-2061] Successfully converted nested loops 'Col'(matrix_mult.cpp:17:14) and 'Product'(matrix_mult.cpp:20:22) in function 'matrix_mult' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'Row'(matrix_mult.cpp:15:10) and 'Col'(matrix_mult.cpp:17:14) in function 'matrix_mult' into perfectly nested loops.
+INFO: [XFORM 203-541] Flattening a loop nest 'Col' (matrix_mult.cpp:17:14) in function 'matrix_mult'.
+INFO: [XFORM 203-541] Flattening a loop nest 'Row' (matrix_mult.cpp:15:10) in function 'matrix_mult'.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.047 seconds; current allocated memory: 502.062 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'matrix_mult' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'matrix_mult' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22) to 3 in order to utilize available DSP registers.
+INFO: [SCHED 204-61] Pipelining loop 'Row_Col_Product'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 6, loop 'Row_Col_Product'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.172 seconds; current allocated memory: 502.062 MB.
+INFO: [HLS 200-2250] Rewind delay = 4 for the pipelined loop 'Row_Col_Product' due to a write-after-write dependence on variable 'empty (no source info)'.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 502.062 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'matrix_mult' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'matrix_mult/a' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'matrix_mult/b' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'matrix_mult/prod' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'matrix_mult' to 'ap_ctrl_hs'.
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'matrix_mult' pipeline 'Row_Col_Product' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_8ns_8ns_16s_16_4_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'matrix_mult'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.067 seconds; current allocated memory: 502.062 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.257 seconds; current allocated memory: 502.062 MB.
+INFO: [HLS 200-2225] Wrote inferred directives to file D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution2/syn/inferred_directives.ini
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.457 seconds; current allocated memory: 502.062 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for matrix_mult.
+INFO: [VLOG 209-307] Generating Verilog RTL for matrix_mult.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 142.57 MHz
+INFO: [HLS 200-2161] Finished Command csynth_design Elapsed time: 00:00:15; Allocated memory: 21.449 MB.
+INFO: [HLS 200-1510] Running: cosim_design 
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+   Build using "C:/AMDDesignTools/2025.2/Vitis/win64/tools/clang-16/bin/clang++"
+   Compiling apatb_matrix_mult.cpp
+   Compiling matrix_mult.cpp_pre.cpp.tb.cpp
+   Compiling matrix_mult_test.cpp_pre.cpp.tb.cpp
+   Compiling apatb_matrix_mult_ir.ll
+   Generating cosim.tv.exe
+INFO: [COSIM 212-302] Starting C TB testing ... 
+Test passed!
+INFO: [COSIM 212-333] Generating C post check test bench ...
+INFO: [COSIM 212-12] Generating RTL test bench ...
+pdir_merged readonly
+pdir_merged readonly
+pdir_merged writeonly
+INFO: [COSIM 212-1] *** C/RTL co-simulation file generation completed. ***
+INFO: [COSIM 212-323] Starting verilog simulation. 
+INFO: [COSIM 212-15] Starting XSIM ...
+
+D:\Semester_6\HWSW\TCL_LAB3\matrix_mult_automation_prj\Solution2\sim\verilog>set PATH= 
+
+D:\Semester_6\HWSW\TCL_LAB3\matrix_mult_automation_prj\Solution2\sim\verilog>call C:/AMDDesignTools/2025.2/Vivado/bin/xelab xil_defaultlib.apatb_matrix_mult_top xil_defaultlib.glbl -Oenable_linking_all_libraries -prj matrix_mult.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm  -L floating_point_v7_1_21 -L floating_point_v7_0_26 --lib "ieee_proposed=./ieee_proposed" -L uvm -relax -i ./svr -i ./axivip -i ./svtb -i ./file_agent -i ./matrix_mult_subsystem  -s matrix_mult  
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_matrix_mult_top xil_defaultlib.glbl -Oenable_linking_all_libraries -prj matrix_mult.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_1_21 -L floating_point_v7_0_26 --lib ieee_proposed=./ieee_proposed -L uvm -relax -i ./svr -i ./axivip -i ./svtb -i ./file_agent -i ./matrix_mult_subsystem -s matrix_mult 
+Multi-threading is on. Using 30 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution2/sim/verilog/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution2/sim/verilog/AESL_automem_a.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_a
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution2/sim/verilog/AESL_automem_b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_b
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution2/sim/verilog/AESL_automem_prod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_prod
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution2/sim/verilog/matrix_mult.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_matrix_mult_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution2/sim/verilog/matrix_mult.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module matrix_mult
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution2/sim/verilog/matrix_mult_flow_control_loop_delay_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module matrix_mult_flow_control_loop_delay_pipe
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution2/sim/verilog/matrix_mult_mac_muladd_8ns_8ns_16s_16_4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module matrix_mult_mac_muladd_8ns_8ns_16s_16_4_1_DSP48_0
+INFO: [VRFC 10-311] analyzing module matrix_mult_mac_muladd_8ns_8ns_16s_16_4_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution2/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution2/sim/verilog/file_agent/file_agent_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution2/sim/verilog/matrix_mult_subsystem/matrix_mult_subsystem_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution2/sim/verilog/svtb/misc_interface.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution2/sim/verilog/svtb/sv_module_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sv_module_top
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/proj/primebuilds/9999.0_PRIME_0428_0031/installs/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 4356. Module uvm_pkg doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_sv_module_top_sv
+Compiling package uvm.uvm_pkg
+Compiling package std.std
+Compiling package xil_defaultlib.matrix_mult_subsystem_pkg
+Compiling package xil_defaultlib.file_agent_pkg
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+Compiling module xil_defaultlib.matrix_mult_mac_muladd_8ns_8ns_1...
+Compiling module xil_defaultlib.matrix_mult_mac_muladd_8ns_8ns_1...
+Compiling module xil_defaultlib.matrix_mult_flow_control_loop_de...
+Compiling module xil_defaultlib.matrix_mult
+Compiling module xil_defaultlib.misc_interface_default
+Compiling module xil_defaultlib.sv_module_top
+Compiling module xil_defaultlib.AESL_automem_a
+Compiling module xil_defaultlib.AESL_automem_b
+Compiling module xil_defaultlib.AESL_automem_prod
+Compiling module xil_defaultlib.nodf_module_intf_default
+Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=1)
+Compiling module xil_defaultlib.dataflow_monitor_1
+Compiling module xil_defaultlib.apatb_matrix_mult_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot matrix_mult
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Tue May 26 23:56:37 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/matrix_mult/xsim_script.tcl
+# xsim {matrix_mult} -testplusarg UVM_VERBOSITY=UVM_NONE -testplusarg UVM_TESTNAME=matrix_mult_test_lib -testplusarg UVM_TIMEOUT=20000000000000 -autoloadwcfg -tclbatch {matrix_mult.tcl}
+Time resolution is 1 ps
+source matrix_mult.tcl
+## run all
+UVM_INFO C:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO C:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18648) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO C:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18752) @ 0: reporter [UVMTOP] UVM testbench topology:
+-----------------------------------------------------------------------
+Name                         Type                           Size  Value
+-----------------------------------------------------------------------
+uvm_test_top                 matrix_mult_test_lib           -     @342 
+  top_env                    matrix_mult_env                -     @353 
+    matrix_mult_virtual_sqr  matrix_mult_virtual_sequencer  -     @390 
+      rsp_export             uvm_analysis_export            -     @399 
+      seq_item_export        uvm_seq_item_pull_imp          -     @517 
+      arbitration_queue      array                          0     -    
+      lock_queue             array                          0     -    
+      num_last_reqs          integral                       32    'd1  
+      num_last_rsps          integral                       32    'd1  
+    refm                     matrix_mult_reference_model    -     @368 
+      trans_num_idx          integral                       32    'h0  
+    subsys_mon               matrix_mult_subsystem_monitor  -     @381 
+      scbd                   matrix_mult_scoreboard         -     @537 
+        refm                 matrix_mult_reference_model    -     @368 
+          trans_num_idx      integral                       32    'h0  
+    refm                     matrix_mult_reference_model    -     @368 
+    matrix_mult_virtual_sqr  matrix_mult_virtual_sequencer  -     @390 
+    matrix_mult_cfg          matrix_mult_config             -     @367 
+      check_ena              integral                       32    'h0  
+      cover_ena              integral                       32    'h0  
+-----------------------------------------------------------------------
+
+UVM_INFO C:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "125000"
+// RTL Simulation : 1 / 1 [100.00%] @ "1455000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 1505 ns : File "C:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
+## quit
+INFO: [Common 17-206] Exiting xsim at Tue May 26 23:56:40 2026...
+INFO: [COSIM 212-316] Starting C post checking ...
+Test passed!
+INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
+INFO: [COSIM 212-211] II is measurable only when transaction number is greater than 1 in RTL simulation. Otherwise, they will be marked as all NA. If user wants to calculate them, please make sure there are at least 2 transactions in RTL simulation.
+INFO: [HLS 200-2161] Finished Command cosim_design Elapsed time: 00:00:34; Allocated memory: 1.723 MB.
+INFO: [HLS 200-1510] Running: open_solution -reset Solution3 -flow_target vivado 
+INFO: [HLS 200-10] Creating and opening solution 'D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3'.
+INFO: [HLS 200-10] Cleaning up the solution database.
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1510] Running: set_part xc7z010clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: set_directive_pipeline matrix_mult/Col -II 1 
+INFO: [HLS 200-1510] Running: config_compile -pipeline_loops 0 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.638 seconds; current allocated memory: 552.367 MB.
+INFO: [HLS 200-2191] C-Synthesis will use clang-16 as the compiler
+INFO: [HLS 200-10] Analyzing design file 'matrix_mult.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 3.051 seconds; current allocated memory: 552.367 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 55 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 65 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 54 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 52 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 52 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 52 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 52 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 52 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 52 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 52 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 52 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 52 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 52 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 52 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 58 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 66 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 214-291] Loop 'Product' is marked as complete unroll implied by the pipeline pragma (matrix_mult.cpp:20:22)
+INFO: [HLS 214-186] Unrolling loop 'Product' (matrix_mult.cpp:20:22) in function 'matrix_mult' completely with a factor of 5 (matrix_mult.cpp:13:0)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 8.879 seconds; current allocated memory: 552.371 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.004 seconds; current allocated memory: 552.371 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.053 seconds; current allocated memory: 552.371 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.049 seconds; current allocated memory: 552.371 MB.
+INFO: [XFORM 203-11] Balancing expressions in function 'matrix_mult' (matrix_mult.cpp:10:14)...4 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.081 seconds; current allocated memory: 571.277 MB.
+INFO: [HLS 200-2061] Successfully converted nested loops 'Row'(matrix_mult.cpp:15:10) and 'Col'(matrix_mult.cpp:17:14) in function 'matrix_mult' into perfectly nested loops.
+INFO: [XFORM 203-541] Flattening a loop nest 'Row' (matrix_mult.cpp:15:10) in function 'matrix_mult'.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.075 seconds; current allocated memory: 572.285 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'matrix_mult' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'matrix_mult' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_2) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_1) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22) to 3 in order to utilize available DSP registers.
+INFO: [SCHED 204-61] Pipelining loop 'Row_Col'.
+WARNING: [HLS 200-448] Lower bound of II is 3 due to multiple 'load' operation 8 bit ('a_load', matrix_mult.cpp:22) on array 'a', 'load' operation 8 bit ('a_load_1', matrix_mult.cpp:22) on array 'a', 'load' operation 8 bit ('a_load_2', matrix_mult.cpp:22) on array 'a', 'load' operation 8 bit ('a_load_3', matrix_mult.cpp:22) on array 'a', 'load' operation 8 bit ('a_load_4', matrix_mult.cpp:22) on array 'a' accessing core:RAM:a
+WARNING: [HLS 200-448] Lower bound of II is 3 due to multiple 'load' operation 8 bit ('b_load', matrix_mult.cpp:22) on array 'b', 'load' operation 8 bit ('b_load_1', matrix_mult.cpp:22) on array 'b', 'load' operation 8 bit ('b_load_2', matrix_mult.cpp:22) on array 'b', 'load' operation 8 bit ('b_load_3', matrix_mult.cpp:22) on array 'b', 'load' operation 8 bit ('b_load_4', matrix_mult.cpp:22) on array 'b' accessing core:RAM:b
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 3, Depth = 8, loop 'Row_Col'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.22 seconds; current allocated memory: 572.285 MB.
+INFO: [HLS 200-2250] Rewind delay = 2 for the pipelined loop 'Row_Col' due to a read-after-write dependence on variable 'j (matrix_mult.cpp:17)'.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.457 seconds; current allocated memory: 572.285 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'matrix_mult' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'matrix_mult/a' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'matrix_mult/b' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'matrix_mult/prod' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'matrix_mult' to 'ap_ctrl_hs'.
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'matrix_mult' pipeline 'Row_Col' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_8ns_8ns_16s_16_4_1': 3 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_8ns_8ns_16_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'matrix_mult'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.115 seconds; current allocated memory: 572.285 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.494 seconds; current allocated memory: 572.285 MB.
+INFO: [HLS 200-2225] Wrote inferred directives to file D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3/syn/inferred_directives.ini
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.699 seconds; current allocated memory: 572.285 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for matrix_mult.
+INFO: [VLOG 209-307] Generating Verilog RTL for matrix_mult.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were NOT satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 166.72 MHz
+INFO: [HLS 200-2161] Finished Command csynth_design Elapsed time: 00:00:15; Allocated memory: 20.012 MB.
+INFO: [HLS 200-1510] Running: cosim_design 
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+   Build using "C:/AMDDesignTools/2025.2/Vitis/win64/tools/clang-16/bin/clang++"
+   Compiling apatb_matrix_mult.cpp
+   Compiling matrix_mult.cpp_pre.cpp.tb.cpp
+   Compiling matrix_mult_test.cpp_pre.cpp.tb.cpp
+   Compiling apatb_matrix_mult_ir.ll
+   Generating cosim.tv.exe
+INFO: [COSIM 212-302] Starting C TB testing ... 
+Test passed!
+INFO: [COSIM 212-333] Generating C post check test bench ...
+INFO: [COSIM 212-12] Generating RTL test bench ...
+pdir_merged readonly
+pdir_merged readonly
+pdir_merged writeonly
+INFO: [COSIM 212-1] *** C/RTL co-simulation file generation completed. ***
+INFO: [COSIM 212-323] Starting verilog simulation. 
+INFO: [COSIM 212-15] Starting XSIM ...
+
+D:\Semester_6\HWSW\TCL_LAB3\matrix_mult_automation_prj\Solution3\sim\verilog>set PATH= 
+
+D:\Semester_6\HWSW\TCL_LAB3\matrix_mult_automation_prj\Solution3\sim\verilog>call C:/AMDDesignTools/2025.2/Vivado/bin/xelab xil_defaultlib.apatb_matrix_mult_top xil_defaultlib.glbl -Oenable_linking_all_libraries -prj matrix_mult.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm  -L floating_point_v7_1_21 -L floating_point_v7_0_26 --lib "ieee_proposed=./ieee_proposed" -L uvm -relax -i ./svr -i ./axivip -i ./svtb -i ./file_agent -i ./matrix_mult_subsystem  -s matrix_mult  
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_matrix_mult_top xil_defaultlib.glbl -Oenable_linking_all_libraries -prj matrix_mult.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_1_21 -L floating_point_v7_0_26 --lib ieee_proposed=./ieee_proposed -L uvm -relax -i ./svr -i ./axivip -i ./svtb -i ./file_agent -i ./matrix_mult_subsystem -s matrix_mult 
+Multi-threading is on. Using 30 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3/sim/verilog/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3/sim/verilog/AESL_automem_a.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_a
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3/sim/verilog/AESL_automem_b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_b
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3/sim/verilog/AESL_automem_prod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_prod
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3/sim/verilog/matrix_mult.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_matrix_mult_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3/sim/verilog/matrix_mult.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module matrix_mult
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3/sim/verilog/matrix_mult_flow_control_loop_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module matrix_mult_flow_control_loop_pipe
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3/sim/verilog/matrix_mult_mac_muladd_8ns_8ns_16s_16_4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module matrix_mult_mac_muladd_8ns_8ns_16s_16_4_1_DSP48_0
+INFO: [VRFC 10-311] analyzing module matrix_mult_mac_muladd_8ns_8ns_16s_16_4_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3/sim/verilog/matrix_mult_mul_8ns_8ns_16_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module matrix_mult_mul_8ns_8ns_16_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3/sim/verilog/file_agent/file_agent_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3/sim/verilog/matrix_mult_subsystem/matrix_mult_subsystem_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3/sim/verilog/svtb/misc_interface.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution3/sim/verilog/svtb/sv_module_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sv_module_top
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/proj/primebuilds/9999.0_PRIME_0428_0031/installs/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 4356. Module uvm_pkg doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_sv_module_top_sv
+Compiling package uvm.uvm_pkg
+Compiling package std.std
+Compiling package xil_defaultlib.matrix_mult_subsystem_pkg
+Compiling package xil_defaultlib.file_agent_pkg
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+Compiling module xil_defaultlib.matrix_mult_mul_8ns_8ns_16_1_1(N...
+Compiling module xil_defaultlib.matrix_mult_mac_muladd_8ns_8ns_1...
+Compiling module xil_defaultlib.matrix_mult_mac_muladd_8ns_8ns_1...
+Compiling module xil_defaultlib.matrix_mult_flow_control_loop_pi...
+Compiling module xil_defaultlib.matrix_mult
+Compiling module xil_defaultlib.misc_interface_default
+Compiling module xil_defaultlib.sv_module_top
+Compiling module xil_defaultlib.AESL_automem_a
+Compiling module xil_defaultlib.AESL_automem_b
+Compiling module xil_defaultlib.AESL_automem_prod
+Compiling module xil_defaultlib.nodf_module_intf_default
+Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=3)
+Compiling module xil_defaultlib.dataflow_monitor_1
+Compiling module xil_defaultlib.apatb_matrix_mult_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot matrix_mult
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Tue May 26 23:57:33 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/matrix_mult/xsim_script.tcl
+# xsim {matrix_mult} -testplusarg UVM_VERBOSITY=UVM_NONE -testplusarg UVM_TESTNAME=matrix_mult_test_lib -testplusarg UVM_TIMEOUT=20000000000000 -autoloadwcfg -tclbatch {matrix_mult.tcl}
+Time resolution is 1 ps
+source matrix_mult.tcl
+## run all
+UVM_INFO C:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO C:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18648) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO C:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18752) @ 0: reporter [UVMTOP] UVM testbench topology:
+-----------------------------------------------------------------------
+Name                         Type                           Size  Value
+-----------------------------------------------------------------------
+uvm_test_top                 matrix_mult_test_lib           -     @342 
+  top_env                    matrix_mult_env                -     @353 
+    matrix_mult_virtual_sqr  matrix_mult_virtual_sequencer  -     @390 
+      rsp_export             uvm_analysis_export            -     @399 
+      seq_item_export        uvm_seq_item_pull_imp          -     @517 
+      arbitration_queue      array                          0     -    
+      lock_queue             array                          0     -    
+      num_last_reqs          integral                       32    'd1  
+      num_last_rsps          integral                       32    'd1  
+    refm                     matrix_mult_reference_model    -     @368 
+      trans_num_idx          integral                       32    'h0  
+    subsys_mon               matrix_mult_subsystem_monitor  -     @381 
+      scbd                   matrix_mult_scoreboard         -     @537 
+        refm                 matrix_mult_reference_model    -     @368 
+          trans_num_idx      integral                       32    'h0  
+    refm                     matrix_mult_reference_model    -     @368 
+    matrix_mult_virtual_sqr  matrix_mult_virtual_sequencer  -     @390 
+    matrix_mult_cfg          matrix_mult_config             -     @367 
+      check_ena              integral                       32    'h0  
+      cover_ena              integral                       32    'h0  
+-----------------------------------------------------------------------
+
+UVM_INFO C:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "125000"
+// RTL Simulation : 1 / 1 [100.00%] @ "955000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 1005 ns : File "C:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
+## quit
+INFO: [Common 17-206] Exiting xsim at Tue May 26 23:57:35 2026...
+INFO: [COSIM 212-316] Starting C post checking ...
+Test passed!
+INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
+INFO: [COSIM 212-211] II is measurable only when transaction number is greater than 1 in RTL simulation. Otherwise, they will be marked as all NA. If user wants to calculate them, please make sure there are at least 2 transactions in RTL simulation.
+INFO: [HLS 200-2161] Finished Command cosim_design Elapsed time: 00:00:39; Allocated memory: 0.695 MB.
+INFO: [HLS 200-1510] Running: open_solution -reset Solution4 -flow_target vivado 
+INFO: [HLS 200-10] Creating and opening solution 'D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4'.
+INFO: [HLS 200-10] Cleaning up the solution database.
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1510] Running: set_part xc7z010clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: config_compile -pipeline_loops 0 
+INFO: [HLS 200-1510] Running: set_directive_array_reshape -type complete -dim 2 matrix_mult a 
+INFO: [HLS 200-1510] Running: set_directive_array_reshape -type complete -dim 1 matrix_mult b 
+INFO: [HLS 200-1510] Running: set_directive_pipeline matrix_mult/Col -II 1 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.556 seconds; current allocated memory: 621.863 MB.
+INFO: [HLS 200-2191] C-Synthesis will use clang-16 as the compiler
+INFO: [HLS 200-10] Analyzing design file 'matrix_mult.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 3.006 seconds; current allocated memory: 621.863 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 57 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 65 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 54 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 52 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 52 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 52 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 52 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 52 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 62 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 46 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 46 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 46 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 46 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 46 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 52 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 60 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 214-291] Loop 'Product' is marked as complete unroll implied by the pipeline pragma (matrix_mult.cpp:20:22)
+INFO: [HLS 214-186] Unrolling loop 'Product' (matrix_mult.cpp:20:22) in function 'matrix_mult' completely with a factor of 5 (matrix_mult.cpp:13:0)
+INFO: [HLS 214-248] Applying array_reshape to 'a': Complete reshaping on dimension 2. (matrix_mult.cpp:13:0)
+INFO: [HLS 214-248] Applying array_reshape to 'b': Complete reshaping on dimension 1. (matrix_mult.cpp:13:0)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 9.248 seconds; current allocated memory: 621.867 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.003 seconds; current allocated memory: 621.867 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.038 seconds; current allocated memory: 621.867 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.038 seconds; current allocated memory: 621.867 MB.
+INFO: [XFORM 203-11] Balancing expressions in function 'matrix_mult' (matrix_mult.cpp:15:14)...4 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.072 seconds; current allocated memory: 640.555 MB.
+INFO: [HLS 200-2061] Successfully converted nested loops 'Row'(matrix_mult.cpp:15:10) and 'Col'(matrix_mult.cpp:17:14) in function 'matrix_mult' into perfectly nested loops.
+INFO: [XFORM 203-541] Flattening a loop nest 'Row' (matrix_mult.cpp:15:10) in function 'matrix_mult'.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.076 seconds; current allocated memory: 640.562 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'matrix_mult' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'matrix_mult' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_2) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_1) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22) to 3 in order to utilize available DSP registers.
+INFO: [SCHED 204-61] Pipelining loop 'Row_Col'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 6, loop 'Row_Col'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.181 seconds; current allocated memory: 640.562 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.049 seconds; current allocated memory: 640.562 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'matrix_mult' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'matrix_mult/a' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'matrix_mult/b' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'matrix_mult/prod' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'matrix_mult' to 'ap_ctrl_hs'.
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'matrix_mult' pipeline 'Row_Col' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_8ns_8ns_16s_16_4_1': 3 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_8ns_8ns_16_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'matrix_mult'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.502 seconds; current allocated memory: 640.562 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.483 seconds; current allocated memory: 640.562 MB.
+INFO: [HLS 200-2225] Wrote inferred directives to file D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4/syn/inferred_directives.ini
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.321 seconds; current allocated memory: 640.562 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for matrix_mult.
+INFO: [VLOG 209-307] Generating Verilog RTL for matrix_mult.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 159.49 MHz
+INFO: [HLS 200-2161] Finished Command csynth_design Elapsed time: 00:00:16; Allocated memory: 18.793 MB.
+INFO: [HLS 200-1510] Running: cosim_design 
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+   Build using "C:/AMDDesignTools/2025.2/Vitis/win64/tools/clang-16/bin/clang++"
+   Compiling apatb_matrix_mult.cpp
+   Compiling matrix_mult.cpp_pre.cpp.tb.cpp
+   Compiling matrix_mult_test.cpp_pre.cpp.tb.cpp
+   Compiling apatb_matrix_mult_ir.ll
+   Generating cosim.tv.exe
+INFO: [COSIM 212-302] Starting C TB testing ... 
+Test passed!
+INFO: [COSIM 212-333] Generating C post check test bench ...
+INFO: [COSIM 212-12] Generating RTL test bench ...
+pdir_merged readonly
+pdir_merged readonly
+pdir_merged writeonly
+INFO: [COSIM 212-1] *** C/RTL co-simulation file generation completed. ***
+INFO: [COSIM 212-323] Starting verilog simulation. 
+INFO: [COSIM 212-15] Starting XSIM ...
+
+D:\Semester_6\HWSW\TCL_LAB3\matrix_mult_automation_prj\Solution4\sim\verilog>set PATH= 
+
+D:\Semester_6\HWSW\TCL_LAB3\matrix_mult_automation_prj\Solution4\sim\verilog>call C:/AMDDesignTools/2025.2/Vivado/bin/xelab xil_defaultlib.apatb_matrix_mult_top xil_defaultlib.glbl -Oenable_linking_all_libraries -prj matrix_mult.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm  -L floating_point_v7_1_21 -L floating_point_v7_0_26 --lib "ieee_proposed=./ieee_proposed" -L uvm -relax -i ./svr -i ./axivip -i ./svtb -i ./file_agent -i ./matrix_mult_subsystem  -s matrix_mult  
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_matrix_mult_top xil_defaultlib.glbl -Oenable_linking_all_libraries -prj matrix_mult.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_1_21 -L floating_point_v7_0_26 --lib ieee_proposed=./ieee_proposed -L uvm -relax -i ./svr -i ./axivip -i ./svtb -i ./file_agent -i ./matrix_mult_subsystem -s matrix_mult 
+Multi-threading is on. Using 30 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4/sim/verilog/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4/sim/verilog/AESL_automem_a.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_a
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4/sim/verilog/AESL_automem_b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_b
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4/sim/verilog/AESL_automem_prod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_prod
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4/sim/verilog/matrix_mult.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_matrix_mult_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4/sim/verilog/matrix_mult.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module matrix_mult
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4/sim/verilog/matrix_mult_flow_control_loop_pipe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module matrix_mult_flow_control_loop_pipe
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4/sim/verilog/matrix_mult_mac_muladd_8ns_8ns_16s_16_4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module matrix_mult_mac_muladd_8ns_8ns_16s_16_4_1_DSP48_0
+INFO: [VRFC 10-311] analyzing module matrix_mult_mac_muladd_8ns_8ns_16s_16_4_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4/sim/verilog/matrix_mult_mul_8ns_8ns_16_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module matrix_mult_mul_8ns_8ns_16_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4/sim/verilog/file_agent/file_agent_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4/sim/verilog/matrix_mult_subsystem/matrix_mult_subsystem_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4/sim/verilog/svtb/misc_interface.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution4/sim/verilog/svtb/sv_module_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sv_module_top
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/proj/primebuilds/9999.0_PRIME_0428_0031/installs/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 4356. Module uvm_pkg doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_sv_module_top_sv
+Compiling package uvm.uvm_pkg
+Compiling package std.std
+Compiling package xil_defaultlib.matrix_mult_subsystem_pkg
+Compiling package xil_defaultlib.file_agent_pkg
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+Compiling module xil_defaultlib.matrix_mult_mul_8ns_8ns_16_1_1(N...
+Compiling module xil_defaultlib.matrix_mult_mac_muladd_8ns_8ns_1...
+Compiling module xil_defaultlib.matrix_mult_mac_muladd_8ns_8ns_1...
+Compiling module xil_defaultlib.matrix_mult_flow_control_loop_pi...
+Compiling module xil_defaultlib.matrix_mult
+Compiling module xil_defaultlib.misc_interface_default
+Compiling module xil_defaultlib.sv_module_top
+Compiling module xil_defaultlib.AESL_automem_a
+Compiling module xil_defaultlib.AESL_automem_b
+Compiling module xil_defaultlib.AESL_automem_prod
+Compiling module xil_defaultlib.nodf_module_intf_default
+Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=1)
+Compiling module xil_defaultlib.dataflow_monitor_1
+Compiling module xil_defaultlib.apatb_matrix_mult_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot matrix_mult
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Tue May 26 23:58:26 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/matrix_mult/xsim_script.tcl
+# xsim {matrix_mult} -testplusarg UVM_VERBOSITY=UVM_NONE -testplusarg UVM_TESTNAME=matrix_mult_test_lib -testplusarg UVM_TIMEOUT=20000000000000 -autoloadwcfg -tclbatch {matrix_mult.tcl}
+Time resolution is 1 ps
+source matrix_mult.tcl
+## run all
+UVM_INFO C:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO C:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18648) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO C:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18752) @ 0: reporter [UVMTOP] UVM testbench topology:
+-----------------------------------------------------------------------
+Name                         Type                           Size  Value
+-----------------------------------------------------------------------
+uvm_test_top                 matrix_mult_test_lib           -     @342 
+  top_env                    matrix_mult_env                -     @353 
+    matrix_mult_virtual_sqr  matrix_mult_virtual_sequencer  -     @390 
+      rsp_export             uvm_analysis_export            -     @399 
+      seq_item_export        uvm_seq_item_pull_imp          -     @517 
+      arbitration_queue      array                          0     -    
+      lock_queue             array                          0     -    
+      num_last_reqs          integral                       32    'd1  
+      num_last_rsps          integral                       32    'd1  
+    refm                     matrix_mult_reference_model    -     @368 
+      trans_num_idx          integral                       32    'h0  
+    subsys_mon               matrix_mult_subsystem_monitor  -     @381 
+      scbd                   matrix_mult_scoreboard         -     @537 
+        refm                 matrix_mult_reference_model    -     @368 
+          trans_num_idx      integral                       32    'h0  
+    refm                     matrix_mult_reference_model    -     @368 
+    matrix_mult_virtual_sqr  matrix_mult_virtual_sequencer  -     @390 
+    matrix_mult_cfg          matrix_mult_config             -     @367 
+      check_ena              integral                       32    'h0  
+      cover_ena              integral                       32    'h0  
+-----------------------------------------------------------------------
+
+UVM_INFO C:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "125000"
+// RTL Simulation : 1 / 1 [100.00%] @ "455000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 505 ns : File "C:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
+## quit
+INFO: [Common 17-206] Exiting xsim at Tue May 26 23:58:28 2026...
+INFO: [COSIM 212-316] Starting C post checking ...
+Test passed!
+INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
+INFO: [COSIM 212-211] II is measurable only when transaction number is greater than 1 in RTL simulation. Otherwise, they will be marked as all NA. If user wants to calculate them, please make sure there are at least 2 transactions in RTL simulation.
+INFO: [HLS 200-2161] Finished Command cosim_design Elapsed time: 00:00:34; Allocated memory: 1.598 MB.
+INFO: [HLS 200-1510] Running: open_solution -reset Solution5 -flow_target vivado 
+INFO: [HLS 200-10] Creating and opening solution 'D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution5'.
+INFO: [HLS 200-10] Cleaning up the solution database.
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1510] Running: set_part xc7z010clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: config_compile -pipeline_loops 0 
+INFO: [HLS 200-1510] Running: set_directive_array_reshape -type complete -dim 2 matrix_mult a 
+INFO: [HLS 200-1510] Running: set_directive_array_reshape -type complete -dim 1 matrix_mult b 
+INFO: [HLS 200-1510] Running: set_directive_pipeline matrix_mult -II 1 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.416 seconds; current allocated memory: 690.391 MB.
+INFO: [HLS 200-2191] C-Synthesis will use clang-16 as the compiler
+INFO: [HLS 200-10] Analyzing design file 'matrix_mult.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 2.567 seconds; current allocated memory: 690.391 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 57 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution5/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,159 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution5/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 426 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution5/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 426 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution5/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 426 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution5/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 426 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution5/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 426 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution5/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 426 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution5/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 476 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution5/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 396 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution5/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 396 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution5/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 396 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution5/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 396 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution5/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 396 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution5/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 402 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution5/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 404 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution5/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 214-291] Loop 'Row' is marked as complete unroll implied by the pipeline pragma (matrix_mult.cpp:15:10)
+INFO: [HLS 214-291] Loop 'Col' is marked as complete unroll implied by the pipeline pragma (matrix_mult.cpp:17:14)
+INFO: [HLS 214-291] Loop 'Product' is marked as complete unroll implied by the pipeline pragma (matrix_mult.cpp:20:22)
+INFO: [HLS 214-186] Unrolling loop 'Row' (matrix_mult.cpp:15:10) in function 'matrix_mult' completely with a factor of 5 (matrix_mult.cpp:13:0)
+INFO: [HLS 214-186] Unrolling loop 'Col' (matrix_mult.cpp:17:14) in function 'matrix_mult' completely with a factor of 5 (matrix_mult.cpp:13:0)
+INFO: [HLS 214-186] Unrolling loop 'Product' (matrix_mult.cpp:20:22) in function 'matrix_mult' completely with a factor of 5 (matrix_mult.cpp:13:0)
+INFO: [HLS 214-248] Applying array_reshape to 'a': Complete reshaping on dimension 2. (matrix_mult.cpp:13:0)
+INFO: [HLS 214-248] Applying array_reshape to 'b': Complete reshaping on dimension 1. (matrix_mult.cpp:13:0)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 8.949 seconds; current allocated memory: 690.395 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.005 seconds; current allocated memory: 690.395 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.051 seconds; current allocated memory: 690.395 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.042 seconds; current allocated memory: 690.660 MB.
+INFO: [XFORM 203-11] Balancing expressions in function 'matrix_mult' (matrix_mult.cpp:22:1)...100 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.123 seconds; current allocated memory: 710.414 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.085 seconds; current allocated memory: 710.418 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'matrix_mult' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'matrix_mult' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_98) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_97) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_96) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_94) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_93) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_92) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_90) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_89) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_88) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_86) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_85) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_84) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_82) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_81) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_80) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_78) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_77) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_76) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_74) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_73) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_72) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_70) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_69) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_68) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_66) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_65) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_64) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_62) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_61) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_60) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_58) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_57) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_56) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_54) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_53) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_52) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_50) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_49) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_48) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_46) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_45) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_44) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_42) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_41) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_40) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_38) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_37) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_36) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_34) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_33) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_32) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_30) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_29) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_28) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_26) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_25) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_24) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_22) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_21) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_20) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_18) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_17) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_16) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_14) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_13) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_12) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_10) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_9) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_8) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_6) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_5) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_4) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_2) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22_1) to 3 in order to utilize available DSP registers.
+INFO: [HLS 200-486] Changing DSP latency (root=add_ln22) to 3 in order to utilize available DSP registers.
+INFO: [SCHED 204-61] Pipelining function 'matrix_mult'.
+WARNING: [HLS 200-448] Lower bound of II is 13 due to multiple 'store' operation ('prod_addr_write_ln22', matrix_mult.cpp:22) of variable 'add_ln22_3', matrix_mult.cpp:22 16 bit on array 'prod', 'store' operation ('prod_addr_1_write_ln22', matrix_mult.cpp:22) of variable 'add_ln22_7', matrix_mult.cpp:22 16 bit on array 'prod', 'store' operation ('prod_addr_2_write_ln22', matrix_mult.cpp:22) of variable 'add_ln22_11', matrix_mult.cpp:22 16 bit on array 'prod', 'store' operation ('prod_addr_3_write_ln22', matrix_mult.cpp:22) of variable 'add_ln22_15', matrix_mult.cpp:22 16 bit on array 'prod', 'store' operation ('prod_addr_4_write_ln22', matrix_mult.cpp:22) of variable 'add_ln22_19', matrix_mult.cpp:22 16 bit on array 'prod', 'store' operation ('prod_addr_5_write_ln22', matrix_mult.cpp:22) of variable 'add_ln22_23', matrix_mult.cpp:22 16 bit on array 'prod', 'store' operation ('prod_addr_6_write_ln22', matrix_mult.cpp:22) of variable 'add_ln22_27', matrix_mult.cpp:22 16 bit on array 'prod', 'store' operation ('prod_addr_7_write_ln22', matrix_mult.cpp:22) of variable 'add_ln22_31', matrix_mult.cpp:22 16 bit on array 'prod', 'store' operation ('prod_addr_8_write_ln22', matrix_mult.cpp:22) of variable 'add_ln22_35', matrix_mult.cpp:22 16 bit on array 'prod', 'store' operation ('prod_addr_9_write_ln22', matrix_mult.cpp:22) of variable 'add_ln22_39', matrix_mult.cpp:22 16 bit on array 'prod', 'store' operation ('prod_addr_10_write_ln22', matrix_mult.cpp:22) of variable 'add_ln22_43', matrix_mult.cpp:22 16 bit on array 'prod', 'store' operation ('prod_addr_11_write_ln22', matrix_mult.cpp:22) of variable 'add_ln22_47', matrix_mult.cpp:22 16 bit on array 'prod', 'store' operation ('prod_addr_12_write_ln22', matrix_mult.cpp:22) of variable 'add_ln22_51', matrix_mult.cpp:22 16 bit on array 'prod', 'store' operation ('prod_addr_13_write_ln22', matrix_mult.cpp:22) of variable 'add_ln22_55', matrix_mult.cpp:22 16 bit on array 'prod', 'store' operation ('prod_addr_14_write_ln22', matrix_mult.cpp:22) of variable 'add_ln22_59', matrix_mult.cpp:22 16 bit on array 'prod', 'store' operation ('prod_addr_15_write_ln22', matrix_mult.cpp:22) of variable 'add_ln22_63', matrix_mult.cpp:22 16 bit on array 'prod', 'store' operation ('prod_addr_16_write_ln22', matrix_mult.cpp:22) of variable 'add_ln22_67', matrix_mult.cpp:22 16 bit on array 'prod', 'store' operation ('prod_addr_17_write_ln22', matrix_mult.cpp:22) of variable 'add_ln22_71', matrix_mult.cpp:22 16 bit on array 'prod', 'store' operation ('prod_addr_18_write_ln22', matrix_mult.cpp:22) of variable 'add_ln22_75', matrix_mult.cpp:22 16 bit on array 'prod', 'store' operation ('prod_addr_19_write_ln22', matrix_mult.cpp:22) of variable 'add_ln22_79', matrix_mult.cpp:22 16 bit on array 'prod', 'store' operation ('prod_addr_20_write_ln22', matrix_mult.cpp:22) of variable 'add_ln22_83', matrix_mult.cpp:22 16 bit on array 'prod', 'store' operation ('prod_addr_21_write_ln22', matrix_mult.cpp:22) of variable 'add_ln22_87', matrix_mult.cpp:22 16 bit on array 'prod', 'store' operation ('prod_addr_22_write_ln22', matrix_mult.cpp:22) of variable 'add_ln22_91', matrix_mult.cpp:22 16 bit on array 'prod', 'store' operation ('prod_addr_23_write_ln22', matrix_mult.cpp:22) of variable 'add_ln22_95', matrix_mult.cpp:22 16 bit on array 'prod', 'store' operation ('prod_addr_24_write_ln22', matrix_mult.cpp:22) of variable 'add_ln22_99', matrix_mult.cpp:22 16 bit on array 'prod' accessing core:RAM:prod
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 13, Depth = 22, function 'matrix_mult'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 5.393 seconds; current allocated memory: 710.418 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.199 seconds; current allocated memory: 710.418 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'matrix_mult' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'matrix_mult/a' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'matrix_mult/b' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'matrix_mult/prod' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'matrix_mult' to 'ap_ctrl_hs'.
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'matrix_mult' pipeline 'matrix_mult' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Generating core module 'mac_muladd_8ns_8ns_16s_16_4_1': 75 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_8ns_8ns_16_1_1': 50 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'matrix_mult'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.328 seconds; current allocated memory: 710.418 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.965 seconds; current allocated memory: 718.449 MB.
+INFO: [HLS 200-2225] Wrote inferred directives to file D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution5/syn/inferred_directives.ini
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.067 seconds; current allocated memory: 720.699 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for matrix_mult.
+INFO: [VLOG 209-307] Generating Verilog RTL for matrix_mult.
+INFO: [HLS 200-789] **** Estimated Fmax: 159.49 MHz
+INFO: [HLS 200-2161] Finished Command csynth_design Elapsed time: 00:00:20; Allocated memory: 30.402 MB.
+INFO: [HLS 200-1510] Running: cosim_design 
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+   Build using "C:/AMDDesignTools/2025.2/Vitis/win64/tools/clang-16/bin/clang++"
+   Compiling apatb_matrix_mult.cpp
+   Compiling matrix_mult.cpp_pre.cpp.tb.cpp
+   Compiling matrix_mult_test.cpp_pre.cpp.tb.cpp
+   Compiling apatb_matrix_mult_ir.ll
+   Generating cosim.tv.exe
+INFO: [COSIM 212-302] Starting C TB testing ... 
+Test passed!
+INFO: [COSIM 212-333] Generating C post check test bench ...
+INFO: [COSIM 212-12] Generating RTL test bench ...
+pdir_merged readonly
+pdir_merged readonly
+pdir_merged writeonly
+INFO: [COSIM 212-1] *** C/RTL co-simulation file generation completed. ***
+INFO: [COSIM 212-323] Starting verilog simulation. 
+INFO: [COSIM 212-15] Starting XSIM ...
+
+D:\Semester_6\HWSW\TCL_LAB3\matrix_mult_automation_prj\Solution5\sim\verilog>set PATH= 
+
+D:\Semester_6\HWSW\TCL_LAB3\matrix_mult_automation_prj\Solution5\sim\verilog>call C:/AMDDesignTools/2025.2/Vivado/bin/xelab xil_defaultlib.apatb_matrix_mult_top xil_defaultlib.glbl -Oenable_linking_all_libraries -prj matrix_mult.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm  -L floating_point_v7_1_21 -L floating_point_v7_0_26 --lib "ieee_proposed=./ieee_proposed" -L uvm -relax -i ./svr -i ./axivip -i ./svtb -i ./file_agent -i ./matrix_mult_subsystem  -s matrix_mult  
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_matrix_mult_top xil_defaultlib.glbl -Oenable_linking_all_libraries -prj matrix_mult.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_1_21 -L floating_point_v7_0_26 --lib ieee_proposed=./ieee_proposed -L uvm -relax -i ./svr -i ./axivip -i ./svtb -i ./file_agent -i ./matrix_mult_subsystem -s matrix_mult 
+Multi-threading is on. Using 30 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution5/sim/verilog/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution5/sim/verilog/AESL_automem_a.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_a
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution5/sim/verilog/AESL_automem_b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_b
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution5/sim/verilog/AESL_automem_prod.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_automem_prod
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution5/sim/verilog/matrix_mult.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_matrix_mult_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution5/sim/verilog/matrix_mult.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module matrix_mult
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution5/sim/verilog/matrix_mult_mac_muladd_8ns_8ns_16s_16_4_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module matrix_mult_mac_muladd_8ns_8ns_16s_16_4_1_DSP48_0
+INFO: [VRFC 10-311] analyzing module matrix_mult_mac_muladd_8ns_8ns_16s_16_4_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution5/sim/verilog/matrix_mult_mul_8ns_8ns_16_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module matrix_mult_mul_8ns_8ns_16_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution5/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution5/sim/verilog/file_agent/file_agent_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution5/sim/verilog/matrix_mult_subsystem/matrix_mult_subsystem_pkg.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution5/sim/verilog/svtb/misc_interface.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution5/sim/verilog/svtb/sv_module_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sv_module_top
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/proj/primebuilds/9999.0_PRIME_0428_0031/installs/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 4356. Module uvm_pkg doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_sv_module_top_sv
+Compiling package uvm.uvm_pkg
+Compiling package std.std
+Compiling package xil_defaultlib.matrix_mult_subsystem_pkg
+Compiling package xil_defaultlib.file_agent_pkg
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+Compiling module xil_defaultlib.matrix_mult_mul_8ns_8ns_16_1_1(N...
+Compiling module xil_defaultlib.matrix_mult_mac_muladd_8ns_8ns_1...
+Compiling module xil_defaultlib.matrix_mult_mac_muladd_8ns_8ns_1...
+Compiling module xil_defaultlib.matrix_mult
+Compiling module xil_defaultlib.misc_interface_default
+Compiling module xil_defaultlib.sv_module_top
+Compiling module xil_defaultlib.AESL_automem_a
+Compiling module xil_defaultlib.AESL_automem_b
+Compiling module xil_defaultlib.AESL_automem_prod
+Compiling module xil_defaultlib.nodf_module_intf_default
+Compiling module xil_defaultlib.dataflow_monitor_1
+Compiling module xil_defaultlib.apatb_matrix_mult_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot matrix_mult
+
+****** xsim v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Tue May 26 23:59:23 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/matrix_mult/xsim_script.tcl
+# xsim {matrix_mult} -testplusarg UVM_VERBOSITY=UVM_NONE -testplusarg UVM_TESTNAME=matrix_mult_test_lib -testplusarg UVM_TIMEOUT=20000000000000 -autoloadwcfg -tclbatch {matrix_mult.tcl}
+Time resolution is 1 ps
+source matrix_mult.tcl
+## run all
+UVM_INFO C:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO C:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18648) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO C:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18752) @ 0: reporter [UVMTOP] UVM testbench topology:
+-----------------------------------------------------------------------
+Name                         Type                           Size  Value
+-----------------------------------------------------------------------
+uvm_test_top                 matrix_mult_test_lib           -     @342 
+  top_env                    matrix_mult_env                -     @353 
+    matrix_mult_virtual_sqr  matrix_mult_virtual_sequencer  -     @390 
+      rsp_export             uvm_analysis_export            -     @399 
+      seq_item_export        uvm_seq_item_pull_imp          -     @517 
+      arbitration_queue      array                          0     -    
+      lock_queue             array                          0     -    
+      num_last_reqs          integral                       32    'd1  
+      num_last_rsps          integral                       32    'd1  
+    refm                     matrix_mult_reference_model    -     @368 
+      trans_num_idx          integral                       32    'h0  
+    subsys_mon               matrix_mult_subsystem_monitor  -     @381 
+      scbd                   matrix_mult_scoreboard         -     @537 
+        refm                 matrix_mult_reference_model    -     @368 
+          trans_num_idx      integral                       32    'h0  
+    refm                     matrix_mult_reference_model    -     @368 
+    matrix_mult_virtual_sqr  matrix_mult_virtual_sequencer  -     @390 
+    matrix_mult_cfg          matrix_mult_config             -     @367 
+      check_ena              integral                       32    'h0  
+      cover_ena              integral                       32    'h0  
+-----------------------------------------------------------------------
+
+UVM_INFO C:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "125000"
+// RTL Simulation : 1 / 1 [100.00%] @ "375000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 425 ns : File "C:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
+## quit
+INFO: [Common 17-206] Exiting xsim at Tue May 26 23:59:26 2026...
+INFO: [COSIM 212-316] Starting C post checking ...
+Test passed!
+INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
+INFO: [COSIM 212-211] II is measurable only when transaction number is greater than 1 in RTL simulation. Otherwise, they will be marked as all NA. If user wants to calculate them, please make sure there are at least 2 transactions in RTL simulation.
+INFO: [HLS 200-2161] Finished Command cosim_design Elapsed time: 00:00:38; Allocated memory: 5.664 MB.
+INFO: [HLS 200-1510] Running: close_project 
+INFO: [HLS 200-112] Total CPU user time: 15 seconds. Total CPU system time: 8 seconds. Total elapsed time: 265.369 seconds; peak allocated memory: 726.363 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 4m 27s
+INFO: [vitis-run 60-1662] Stopping dispatch session having empty uuid.

@@ -1,0 +1,246 @@
+<ENTRY>
+{
+ "thisFile": "D:/Semester_6\\HWSW\\LAB3\\matrix_mult_prj_solution3\\matrix_mult_prj_solution3\\matrix_mult_prj_solution3.hlscompile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "05/26/26 21:42:56",
+ "timestampMillis": "1779806576469",
+ "buildStep": {
+  "cmdId": "da7f3f3d-eb32-425a-b969-1b0d39264842",
+  "name": "v++",
+  "logFile": "D:/Semester_6\\HWSW\\LAB3\\matrix_mult_prj_solution3\\matrix_mult_prj_solution3\\logs\\matrix_mult_prj_solution3.steps.log",
+  "commandLine": "C:/AMDDesignTools/2025.2/Vitis/bin/unwrapped/win64.o/v++.exe  -c --mode hls --config D:\\Semester_6\\HWSW\\LAB3\\matrix_mult_prj_solution3\\hls_config.cfg --work_dir matrix_mult_prj_solution3 ",
+  "args": [
+   "-c",
+   "--mode",
+   "hls",
+   "--config",
+   "D:\\Semester_6\\HWSW\\LAB3\\matrix_mult_prj_solution3\\hls_config.cfg",
+   "--work_dir",
+   "matrix_mult_prj_solution3"
+  ],
+  "iniFiles": [
+   {
+    "path": "D:/Semester_6\\HWSW\\LAB3\\matrix_mult_prj_solution3\\hls_config.cfg",
+    "content": "part=xc7z010clg400-1\n\n[hls]\nflow_target=vivado\npackage.output.format=rtl\npackage.output.syn=false\nsyn.top=matrix_mult\nclock=10ns\nclock_uncertainty=27%\nsyn.file=../solution3/matrix_mult.cpp\nsyn.file=../solution3/matrix_mult.h\ntb.file=../solution3/matrix_mult_test.cpp"
+   }
+  ],
+  "cwd": "D:\\Semester_6\\HWSW\\LAB3\\matrix_mult_prj_solution3"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/26/26 21:42:56",
+ "timestampMillis": "1779806576469",
+ "status": {
+  "cmdId": "da7f3f3d-eb32-425a-b969-1b0d39264842",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "05/26/26 21:43:02",
+ "timestampMillis": "1779806582656",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "matrix_mult",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "D:/Semester_6\\HWSW\\LAB3\\solution3\\matrix_mult.cpp",
+     "D:/Semester_6\\HWSW\\LAB3\\solution3\\matrix_mult.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "05/26/26 21:43:02",
+ "timestampMillis": "1779806582657",
+ "buildStep": {
+  "cmdId": "d8b79ec7-4524-468d-b462-10539f7407a9",
+  "name": "",
+  "logFile": "D:/Semester_6\\HWSW\\LAB3\\matrix_mult_prj_solution3\\matrix_mult_prj_solution3\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "D:\\Semester_6\\HWSW\\LAB3\\matrix_mult_prj_solution3"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/26/26 21:43:02",
+ "timestampMillis": "1779806582657",
+ "status": {
+  "cmdId": "d8b79ec7-4524-468d-b462-10539f7407a9",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/26/26 21:43:02",
+ "timestampMillis": "1779806582657",
+ "report": {
+  "path": "D:/Semester_6\\HWSW\\LAB3\\matrix_mult_prj_solution3\\matrix_mult_prj_solution3\\hls\\hls_data.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/26/26 21:43:02",
+ "timestampMillis": "1779806582658",
+ "report": {
+  "path": "D:/Semester_6\\HWSW\\LAB3\\matrix_mult_prj_solution3\\matrix_mult_prj_solution3\\hls\\syn\\report\\csynth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/26/26 21:43:02",
+ "timestampMillis": "1779806582658",
+ "report": {
+  "path": "D:/Semester_6\\HWSW\\LAB3\\matrix_mult_prj_solution3\\matrix_mult_prj_solution3\\hls\\syn\\report\\csynth.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/26/26 21:43:18",
+ "timestampMillis": "1779806598860",
+ "report": {
+  "path": "D:/Semester_6\\HWSW\\LAB3\\matrix_mult_prj_solution3\\matrix_mult_prj_solution3\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/26/26 21:43:18",
+ "timestampMillis": "1779806598860",
+ "report": {
+  "path": "D:/Semester_6\\HWSW\\LAB3\\matrix_mult_prj_solution3\\matrix_mult_prj_solution3\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/26/26 21:43:18",
+ "timestampMillis": "1779806598861",
+ "report": {
+  "path": "D:/Semester_6\\HWSW\\LAB3\\matrix_mult_prj_solution3\\matrix_mult_prj_solution3\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_SCHEDULE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/26/26 21:43:18",
+ "timestampMillis": "1779806598861",
+ "status": {
+  "cmdId": "d8b79ec7-4524-468d-b462-10539f7407a9",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/26/26 21:43:19",
+ "timestampMillis": "1779806599022",
+ "status": {
+  "cmdId": "da7f3f3d-eb32-425a-b969-1b0d39264842",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/26/26 21:43:19",
+ "timestampMillis": "1779806599043",
+ "report": {
+  "path": "D:/Semester_6\\HWSW\\LAB3\\matrix_mult_prj_solution3\\matrix_mult_prj_solution3\\reports\\v++_compile_matrix_mult_prj_solution3_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/26/26 21:43:19",
+ "timestampMillis": "1779806599043",
+ "report": {
+  "path": "D:/Semester_6\\HWSW\\LAB3\\matrix_mult_prj_solution3\\matrix_mult_prj_solution3\\reports\\.db\\v++_compile_matrix_mult_prj_solution3_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

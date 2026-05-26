@@ -1,0 +1,38 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="D:/Semester_6/HWSW/TCL_LAB3/script.tcl:69:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="matrix_mult" ARG_PragmaIsValid="1" ARG_PragmaOptions="complete dim=2 variable=a" ARG_PragmaType="array_reshape" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="D:/Semester_6/HWSW/TCL_LAB3/script.tcl:70:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="matrix_mult" ARG_PragmaIsValid="1" ARG_PragmaOptions="complete dim=1 variable=b" ARG_PragmaType="array_reshape" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="D:/Semester_6/HWSW/TCL_LAB3/script.tcl:73:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="matrix_mult" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="D:/Semester_6/HWSW/TCL_LAB3/script.tcl:76:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="matrix_mult" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=matrix_mult" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="matrix_mult.cpp:15:10" msg_body="Loop 'Row' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="Row"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="matrix_mult.cpp:17:14" msg_body="Loop 'Col' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="Col"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="matrix_mult.cpp:20:22" msg_body="Loop 'Product' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="Product"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="matrix_mult.cpp:13:0" msg_body="Unrolling loop 'Row' (matrix_mult.cpp:15:10) in function 'matrix_mult' completely with a factor of 5">
+        <args Factor="5" LoopLoc="matrix_mult.cpp:15:10" LoopName="Row"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="matrix_mult.cpp:13:0" msg_body="Unrolling loop 'Col' (matrix_mult.cpp:17:14) in function 'matrix_mult' completely with a factor of 5">
+        <args Factor="5" LoopLoc="matrix_mult.cpp:17:14" LoopName="Col"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="matrix_mult.cpp:13:0" msg_body="Unrolling loop 'Product' (matrix_mult.cpp:20:22) in function 'matrix_mult' completely with a factor of 5">
+        <args Factor="5" LoopLoc="matrix_mult.cpp:20:22" LoopName="Product"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="matrix_mult.cpp:13:0" msg_body="Applying array_reshape to 'a': Complete reshaping on dimension 2.">
+        <args Dim="2" Mode="Complete" UOName="a"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="matrix_mult.cpp:13:0" msg_body="Applying array_reshape to 'b': Complete reshaping on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="b"/>
+    </msg>
+</xilinx:hls_fe_msgs>

@@ -1,0 +1,106 @@
+[
+  {
+    "csim": false,
+    "functionLabel": "",
+    "functionName": "matrix_mult",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "ARRAY_RESHAPE",
+      "option": [
+        {
+          "name": "complete",
+          "value": ""
+        },
+        {
+          "name": "dim",
+          "value": "2"
+        },
+        {
+          "name": "variable",
+          "value": "a"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "D:/Semester_6/HWSW/TCL_LAB3/script.tcl",
+    "sourceLine": 69,
+    "success": true
+  },
+  {
+    "csim": false,
+    "functionLabel": "",
+    "functionName": "matrix_mult",
+    "id": 1,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "ARRAY_RESHAPE",
+      "option": [
+        {
+          "name": "complete",
+          "value": ""
+        },
+        {
+          "name": "dim",
+          "value": "1"
+        },
+        {
+          "name": "variable",
+          "value": "b"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "D:/Semester_6/HWSW/TCL_LAB3/script.tcl",
+    "sourceLine": 70,
+    "success": true
+  },
+  {
+    "csim": false,
+    "functionLabel": "",
+    "functionName": "matrix_mult",
+    "id": 2,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "PIPELINE",
+      "option": [
+        {
+          "name": "II",
+          "value": "1"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "D:/Semester_6/HWSW/TCL_LAB3/script.tcl",
+    "sourceLine": 73,
+    "success": true
+  },
+  {
+    "csim": false,
+    "functionLabel": "",
+    "functionName": "matrix_mult",
+    "id": 3,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "matrix_mult"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "D:/Semester_6/HWSW/TCL_LAB3/script.tcl",
+    "sourceLine": 76,
+    "success": true
+  }
+]
