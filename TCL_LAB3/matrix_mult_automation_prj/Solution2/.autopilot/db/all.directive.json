@@ -1,0 +1,46 @@
+[
+  {
+    "csim": false,
+    "functionLabel": "",
+    "functionName": "matrix_mult",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "Product",
+    "pragma": {
+      "name": "PIPELINE",
+      "option": [
+        {
+          "name": "II",
+          "value": "1"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "D:/Semester_6/HWSW/TCL_LAB3/script.tcl",
+    "sourceLine": 29,
+    "success": true
+  },
+  {
+    "csim": false,
+    "functionLabel": "",
+    "functionName": "matrix_mult",
+    "id": 1,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "matrix_mult"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "D:/Semester_6/HWSW/TCL_LAB3/script.tcl",
+    "sourceLine": 32,
+    "success": true
+  }
+]

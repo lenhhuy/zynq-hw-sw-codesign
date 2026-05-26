@@ -1,0 +1,13 @@
+directive:1:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=matrix_mult_XLX_SEP_ PragmaOptions=name=matrix_mult_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE TOP name=matrix_mult
+^
+../solution4/matrix_mult.cpp:14:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_reshape_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=matrix_mult_XLX_SEP_ PragmaOptions=variable=b dim=1 type=complete_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_RESHAPE variable=b dim=1 type=complete
+^
+../solution4/matrix_mult.cpp:15:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_reshape_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=matrix_mult_XLX_SEP_ PragmaOptions=variable=a dim=2 type=complete_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS ARRAY_RESHAPE variable=a dim=2 type=complete
+^
+../solution4/matrix_mult.cpp:20:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=matrix_mult_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE
+^
+4 warnings generated.

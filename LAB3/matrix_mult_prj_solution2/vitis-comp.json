@@ -1,0 +1,13 @@
+{
+  "name": "matrix_mult_prj_solution2",
+  "type": "HLS",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": [
+      "hls_config.cfg"
+    ],
+    "work_dir": "matrix_mult_prj_solution2"
+  },
+  "useSysrootToolchain": false,
+  "templateFlow": "VITIS"
+}

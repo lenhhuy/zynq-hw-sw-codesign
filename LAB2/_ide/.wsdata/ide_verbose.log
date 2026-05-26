@@ -2799,3 +2799,239 @@
 2026-05-20 11:19:21 [debug] : [Platform Provider] project updated D:\Semester_6\HWSW\LAB2\zynq_interrupt_platform {"0":{"platformName":"zynq_interrupt_platform","platformDescription":"","platformLocation":"D:\\Semester_6\\HWSW\\LAB2\\zynq_interrupt_platform","xsaPath":"D:/Semester_6/HWSW/LAB2/zynq_interrupts/zynq_interrupt_system_wrapper.xsa","xsapathinplatform":"zynq_interrupt_platform/hw/zynq_interrupt_system_wrapper.xsa","isCustomFsbl":true,"fsblPath":"","pmufwElf":"","supportedFamily":"zynq","flow":3,"emulationXsaPath":"","emulationXsaPathInPlatform":"","stdGenHooksList":[],"reconfigurablePartitionsList":[]}}
 2026-05-20 11:19:22 [debug] : [Platform Server] Executing method:[getPartFromXSA] with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":["D:\\Semester_6\\HWSW\\LAB2\\zynq_interrupt_platform"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
 2026-05-20 11:20:22 [debug] : No label for action menu node: No command "workspace:addFolder" exists. 
+2026-05-21 02:00:48 [debug] : --------------------------------------------------------------------------------- 
+2026-05-21 02:00:48 [debug] : D:\Semester_6\HWSW\LAB2 
+2026-05-21 02:00:48 [debug] : --------------------------------------------------------------------------------- 
+2026-05-21 02:00:48 [debug] : [Logger] Previous user logs are stored in the file - C:\Users\ADMIN\.Xilinx\Vitis\2025.2\logs\ide.log 
+2026-05-21 02:00:48 [debug] : [Logger] Previous debug logs are stored in the file - C:\Users\ADMIN\.Xilinx\Vitis\2025.2\.wsdata\ide_verbose.log 
+2026-05-21 02:00:48 [debug] : [Application Examples Provider]  updating the embedded templates on workspace event. 
+2026-05-21 02:00:48 [debug] : [Application Examples Provider] refresh requested. 
+2026-05-21 02:00:48 [debug] : Received event from notification service: ON_DID_UPDATE_WORKSPACE. 
+2026-05-21 02:00:48 [debug] : [Logger Client] log levelchanged to  {"0":"Info"}
+2026-05-21 02:00:48 [debug] : [Logger UI]  Update Log Level  called 
+2026-05-21 02:00:48 [debug] : [Repository Server] Executing method:getEmbeddedExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-05-21 02:00:48 [debug] : [Application Examples Provider] common calling method requested. 
+2026-05-21 02:00:48 [debug] : [Application Examples Provider] Repositories model update requested. 
+2026-05-21 02:00:48 [debug] : [Application Examples Provider] Repositories model update completed. 
+2026-05-21 02:00:48 [debug] : [Application Examples Provider] Templates model update requested. 
+2026-05-21 02:00:48 [debug] : [Repository Service] Executing method:getEmbeddedExampleTemplateTree from frontend. {"0":"request:"}
+2026-05-21 02:00:48 [debug] : [Logger UI]  Update Log Level success {"0":{"success":true,"error":""}}
+2026-05-21 02:00:48 [debug] : RIGEL SERVER 02:00:48 INFO  : created .gitignore file for the project D:\Semester_6\HWSW\LAB2 
+2026-05-21 02:00:48 [debug] : RIGEL SERVER 02:00:48 INFO  : updated workspace path: D:\Semester_6\HWSW\LAB2 
+2026-05-21 02:00:48 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2026-05-21 02:00:48 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2026-05-21 02:00:48 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2026-05-21 02:00:48 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2026-05-21 02:00:48 [debug] : Received event from notification service: ON_DID_REFRESH_WORKSPACE_SUMMARIES. 
+2026-05-21 02:00:48 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["d88c87b0-26af-4af8-a893-e98cf4c356a2",null,54,null,null,null,null,"refresh-summaries"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-05-21 02:00:48 [debug] : [ProjectCache] fetching projects for project-cache 
+2026-05-21 02:00:48 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2026-05-21 02:00:48 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-21 02:00:48 [debug] : [ProjectCache] Project location updated to D:\Semester_6\HWSW\LAB2\interrupt_counter 
+2026-05-21 02:00:48 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-21 02:00:48 [debug] : MonacoEditorModel.cancelSync {"0":"file:///d:/Semester_6/HWSW/LAB2/_ide/logs/vitis.log"}
+2026-05-21 02:00:48 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///d:/Semester_6/HWSW/LAB2/_ide/logs/vitis.log"}
+2026-05-21 02:00:48 [debug] : MonacoEditorModel.cancelSync {"0":"file:///d:/Semester_6/HWSW/LAB2/_ide/logs/vitis.log"}
+2026-05-21 02:00:48 [debug] : MonacoEditorModel.cancelSync {"0":"file:///d:/Semester_6/HWSW/LAB2/_ide/logs/vitis.log"}
+2026-05-21 02:00:48 [debug] : MonacoEditorModel.doSync - exit - cancelled while looking for a resource {"0":"file:///d:/Semester_6/HWSW/LAB2/_ide/logs/vitis.log"}
+2026-05-21 02:00:48 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///d:/Semester_6/HWSW/LAB2/_ide/logs/vitis.log"}
+2026-05-21 02:00:48 [debug] : MonacoEditorModel.doSync - exit - cancelled {"0":"file:///d:/Semester_6/HWSW/LAB2/_ide/logs/vitis.log"}
+2026-05-21 02:00:48 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///d:/Semester_6/HWSW/LAB2/_ide/logs/vitis.log"}
+2026-05-21 02:00:48 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 482,
+        "startColumn": 1,
+        "endLineNumber": 482,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "02:00:48 INFO  : updated workspace path: D:\\Semester_6\\HWSW\\LAB2\r\n",
+      "rangeOffset": 57423,
+      "forceMoveMarkers": true
+    }
+  ],
+  "eol": "\r\n",
+  "isEolChange": false,
+  "versionId": 2,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///d:/Semester_6/HWSW/LAB2/_ide/logs/vitis.log"}
+2026-05-21 02:00:48 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///d:/Semester_6/HWSW/LAB2/_ide/logs/vitis.log"}
+2026-05-21 02:00:48 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///d:/Semester_6/HWSW/LAB2/_ide/logs/vitis.log"}
+2026-05-21 02:00:48 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///d:/Semester_6/HWSW/LAB2/_ide/logs/vitis.log"}
+2026-05-21 02:00:48 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///d:/Semester_6/HWSW/LAB2/_ide/logs/vitis.log"}
+2026-05-21 02:00:49 [debug] : [Platform Server] Executing method:[getPartFromXSA] with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":["D:\\Semester_6\\HWSW\\LAB2\\zynq_interrupt_platform"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-05-21 02:00:49 [debug] : RIGEL SERVER 02:00:49 INFO  : [INFO]: Initializing repositories 
+2026-05-21 02:00:49 [debug] : RIGEL SERVER 02:00:49 INFO  : [INFO]: Successfully set the EmbeddedSW path, refer .repo.yaml for more details.
+02:00:49 INFO  : Successfully created repository data at C:\Users\ADMIN\AppData\Local\Temp\rigel_lopper_ADMIN15008805817654347801 
+2026-05-21 02:00:49 [debug] : RIGEL SERVER 02:00:49 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\ADMIN\AppData\Local\Temp\rigel_lopper_ADMIN1472591703579081489 -r C:\Users\ADMIN\AppData\Local\Temp\rigel_lopper_ADMIN15008805817654347801\.repo.yaml 
+2026-05-21 02:00:50 [debug] : RIGEL SERVER 02:00:50 INFO  : Embedded Template List generated successfully 
+2026-05-21 02:00:50 [debug] : RIGEL SERVER 02:00:50 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\ADMIN\AppData\Local\Temp\rigel_lopper_ADMIN5761010234848164548 -r D:\Semester_6\HWSW\LAB2\_ide\.wsdata\.repo.yaml 
+2026-05-21 02:00:50 [debug] : RIGEL SERVER 02:00:50 INFO  : Embedded Template List generated successfully 
+2026-05-21 02:00:50 [debug] : [Application Examples Provider] Templates model update completed. 
+2026-05-21 02:00:50 [debug] : [Application Examples Provider] common calling method completed. 
+2026-05-21 02:00:50 [debug] : [Application Examples Provider] refresh completed. 
+2026-05-21 02:00:52 [debug] : [ProjectDecorator] tree decoration updated 
+2026-05-21 02:00:52 [debug] : [ProjectCache] Project location updated to D:\Semester_6\HWSW\LAB2\interrupt_counter 
+2026-05-21 02:00:57 [debug] : [Platform Server] Executing method:[generatePlatform] with connection:(object). {"0":"request:","1":"D:\\Semester_6\\HWSW\\LAB2\\zynq_interrupt_platform"}
+2026-05-21 02:00:57 [debug] : [Platform Server] Generate platform requested for zynq_interrupt_platform with internal id '1a2586d6-7395-4c14-91d9-7a89d9b3c7dc'. 
+2026-05-21 02:00:57 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2026-05-21 02:00:57 [debug] : Received event from notification service: ON_DID_BUILD_START. 
+2026-05-21 02:00:57 [debug] : Received event from notification service: ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2026-05-21 02:00:57 [debug] : [Platform Output] Generate zynq_interrupt_platform platform with id '1a2586d6-7395-4c14-91d9-7a89d9b3c7dc' started. 
+2026-05-21 02:00:57 [debug] : RIGEL SERVER 02:00:57 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0 
+2026-05-21 02:00:57 [debug] : RIGEL SERVER 02:00:57 INFO  : Generating BSP for the domain D:\Semester_6\HWSW\LAB2\zynq_interrupt_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp 
+2026-05-21 02:00:57 [debug] : RIGEL SERVER 02:00:57 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\Semester_6\HWSW\LAB2\zynq_interrupt_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp 
+2026-05-21 02:00:57 [debug] : RIGEL SERVER 02:00:57 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\Semester_6\HWSW\LAB2\zynq_interrupt_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp 
+2026-05-21 02:00:58 [debug] : RIGEL SERVER 02:00:58 INFO  : Domain reconfigured successfully 
+2026-05-21 02:00:58 [debug] : RIGEL SERVER 02:00:58 INFO  : Generating BSP for the domain D:\Semester_6\HWSW\LAB2\zynq_interrupt_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+02:00:58 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\Semester_6\HWSW\LAB2\zynq_interrupt_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp 
+2026-05-21 02:00:58 [debug] : RIGEL SERVER 02:00:58 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\Semester_6\HWSW\LAB2\zynq_interrupt_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp 
+2026-05-21 02:01:03 [debug] : start navigation 1 
+2026-05-21 02:01:03 [debug] : start navigation 2 
+2026-05-21 02:01:03 [debug] : end navigation 1 
+2026-05-21 02:01:03 [debug] : end navigation 0 
+2026-05-21 02:01:03 [debug] : ending navigation with location {"uri":"file:///d%3A/Semester_6/HWSW/LAB2/interrupt_counter/src/2Dtest.c","type":1,"context":{"start":{"line":0,"character":0},"end":{"line":0,"character":0}}} 
+2026-05-21 02:01:03 [debug] : RIGEL SERVER 02:01:03 INFO  : Domain build successfully 
+2026-05-21 02:01:03 [debug] : RIGEL SERVER 02:01:03 INFO  : Generating Boot ELFs 
+2026-05-21 02:01:03 [debug] : RIGEL SERVER 02:01:03 INFO  : Generating Export directory 
+2026-05-21 02:01:04 [debug] : Received event from notification service: ON_DID_UPDATE_COMPONENT. 
+2026-05-21 02:01:04 [debug] : Received event from notification service: ON_UPDATE_PLATFORM_STATUS. 
+2026-05-21 02:01:04 [debug] : RIGEL SERVER 02:01:04 INFO  : Platform Build Finished successfully. 
+2026-05-21 02:01:04 [debug] : [Platform Server] Generate platform completed on 'zynq_interrupt_platform' with internal id '1a2586d6-7395-4c14-91d9-7a89d9b3c7dc'. 
+2026-05-21 02:01:04 [debug] : [Platform Server] Generate platform status event - label: zynq_interrupt_platform, status_code:0, status_details:. 
+2026-05-21 02:01:04 [debug] : [Platform Server] Generate platform output steam finished on 'zynq_interrupt_platform' with internal id '1a2586d6-7395-4c14-91d9-7a89d9b3c7dc'. 
+2026-05-21 02:01:04 [info] : [Platform Server] Generate platform output stream finished - zynq_interrupt_platform. 
+2026-05-21 02:01:04 [debug] : Received event from notification service: ON_DID_MODIFY_PLATFORM_REPOS. 
+2026-05-21 02:01:04 [debug] : [Platform Output] Generate zynq_interrupt_platform platform with id '1a2586d6-7395-4c14-91d9-7a89d9b3c7dc' completed. 
+2026-05-21 02:01:04 [debug] : [Platform Output] Deleting and canceling the build task with id '1a2586d6-7395-4c14-91d9-7a89d9b3c7dc'. 
+2026-05-21 02:01:04 [debug] : Received event from notification service: ON_DID_BUILD_STOP. 
+2026-05-21 02:01:04 [debug] : [Build Server] Executing method:build with connection:(object). {"0":"request:","1":{"appParentPath":"d:\\Semester_6\\HWSW\\LAB2","appName":"interrupt_counter","buildCfg":"","componentName":"","type":0,"buildTarget":"all","workDirPath":"","customCommand":"","containerName":"","serialBuild":true,"buildComps":false,"componentsToBuildList":[]}}
+2026-05-21 02:01:04 [debug] : [Build Server] Build requested on 'interrupt_counter::' with internal id '5564fb4b-6d4f-40c9-b841-89ff9cae9497'. 
+2026-05-21 02:01:04 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2026-05-21 02:01:04 [debug] : Received event from notification service: ON_DID_BUILD_START. 
+2026-05-21 02:01:04 [debug] : [Platform Server] Executing method:[getPartFromXSA] with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":["D:\\Semester_6\\HWSW\\LAB2\\zynq_interrupt_platform"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2026-05-21 02:01:04 [debug] : RIGEL SERVER 02:01:04 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s d:\Semester_6\HWSW\LAB2\interrupt_counter\src -d D:\Semester_6\HWSW\LAB2\zynq_interrupt_platform\export\zynq_interrupt_platform\sw\standalone_ps7_cortexa9_0 -b d:\Semester_6\HWSW\LAB2\interrupt_counter\build 
+2026-05-21 02:01:04 [debug] : RIGEL SERVER 02:01:04 INFO  : cmd.exe, /C, empyro.bat retarget_app -s d:\Semester_6\HWSW\LAB2\interrupt_counter\src -d D:\Semester_6\HWSW\LAB2\zynq_interrupt_platform\export\zynq_interrupt_platform\sw\standalone_ps7_cortexa9_0 -b d:\Semester_6\HWSW\LAB2\interrupt_counter\build 
+2026-05-21 02:01:04 [debug] : Received event from notification service: ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2026-05-21 02:01:04 [debug] : Received event from notification service: ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2026-05-21 02:01:04 [debug] : RIGEL SERVER 02:01:04 INFO  : [INFO]: Retargeting app 
+2026-05-21 02:01:04 [debug] : RIGEL SERVER 02:01:04 INFO  : [INFO]: Updating link libraries based on new domain 
+2026-05-21 02:01:04 [debug] : RIGEL SERVER 02:01:04 INFO  : Successfully retargeted Application d:\Semester_6\HWSW\LAB2\interrupt_counter\src 
+2026-05-21 02:01:04 [debug] : RIGEL SERVER 02:01:04 INFO  : Initiating build for the interrupt_counter component. 
+2026-05-21 02:01:04 [debug] : RIGEL SERVER 02:01:04 INFO  : cmd.exe, /C, empyro.bat build_app -s d:\Semester_6\HWSW\LAB2\interrupt_counter\src -b d:\Semester_6\HWSW\LAB2\interrupt_counter\build 
+2026-05-21 02:01:04 [debug] : RIGEL SERVER 02:01:04 INFO  : Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s d:\Semester_6\HWSW\LAB2\interrupt_counter\src -b d:\Semester_6\HWSW\LAB2\interrupt_counter\build 
+2026-05-21 02:01:04 [debug] : [Build Output] Build for interrupt_counter::build with id '5564fb4b-6d4f-40c9-b841-89ff9cae9497' started. 
+2026-05-21 02:01:05 [debug] : PLUGIN_HOST(15720): PluginManagerExtImpl/loadPlugin(C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\plugins\vscode-clangd\extension\out\bundle) 
+2026-05-21 02:01:05 [debug] : PLUGIN_HOST(15720): PluginManagerExtImpl/loadPlugin(C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\plugins\vitis-hls-verilog-vhdl-support-0.0.1\extension\lib\extension.js) 
+2026-05-21 02:01:05 [debug] : PLUGIN_HOST(15720): PluginManagerExtImpl/loadPlugin(C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\plugins\vitis-hls-pragma-0.6.0\extension\out\extension.js) 
+2026-05-21 02:01:05 [debug] : PLUGIN_HOST(15720): PluginManagerExtImpl/loadPlugin(C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\plugins\vitis-hls-l1-library-0.0.1\extension\lib\extension.js) 
+2026-05-21 02:01:05 [debug] : Starting extension "vitis-hls-pragma"! 
+2026-05-21 02:01:05 [debug] : Calling activation function on plugin amd.vitis-hls-verilog-vhdl-support 
+2026-05-21 02:01:05 [debug] : Calling activation function on plugin amd.vitis-hls-l1-library 
+2026-05-21 02:01:05 [debug] : Calling activation function on plugin amd.vitis-hls-pragma 
+2026-05-21 02:01:05 [debug] : Clang Language Server is now active! 
+2026-05-21 02:01:05 [debug] : Calling activation function on plugin clangd 
+2026-05-21 02:01:06 [debug] : [Build Server] Build completed on 'interrupt_counter::' with internal id '5564fb4b-6d4f-40c9-b841-89ff9cae9497'. 
+2026-05-21 02:01:06 [debug] : [Build Server] Build status event - label: interrupt_counter::, status_code:0, status_details:. 
+2026-05-21 02:01:06 [debug] : [Build Server] Build output steam finished on 'interrupt_counter::' with internal id '5564fb4b-6d4f-40c9-b841-89ff9cae9497'. 
+2026-05-21 02:01:06 [info] : [Build Server] Build output stream finished - interrupt_counter::. 
+2026-05-21 02:01:06 [debug] : [Workspace Service] Attempting to restart clangd - unimplemented 
+2026-05-21 02:01:06 [debug] : Received event from notification service: ON_DID_UPDATE_COMPILE_COMMAND. 
+2026-05-21 02:01:06 [debug] : [Build Output] Build for interrupt_counter::build with id '5564fb4b-6d4f-40c9-b841-89ff9cae9497' completed. 
+2026-05-21 02:01:06 [debug] : [Build Output] Deleting and canceling the build task with id '5564fb4b-6d4f-40c9-b841-89ff9cae9497'. 
+2026-05-21 02:01:06 [debug] : Received event from notification service: ON_DID_BUILD_STOP. 
+2026-05-21 02:01:06 [debug] : Received event from notification service: ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2026-05-21 02:01:12 [debug] : socket closed 
+2026-05-21 02:01:12 [debug] : closing connection for 1 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/localization-server'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/os'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/commands'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/logger'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/messageService'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/rigel-utils'. 
+2026-05-21 02:01:12 [debug] : [Rigel Utils Server] Disposing objects in backend. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/ChannelCloseService'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/remote-filesystem'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/envs'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/startup-workspace'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/rigel-workspace'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/workspace'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/keyboard'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/stopwatch'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/application'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/i18n'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/quickInput'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/project'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/component'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/feature-registry'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/debugger'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/debug'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/shell-terminal'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/quickPick'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/task'. 
+2026-05-21 02:01:12 [debug] : a client has disconnected - removed from list: 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/search'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/hostedPlugin'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/plugin-ext'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/plugin-paths'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/vsx-environment'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/request-service'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/cli-preferences'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/server'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/repository'. 
+2026-05-21 02:01:12 [debug] : [Repository Server] Disposing objects in backend. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/program_flash'. 
+2026-05-21 02:01:12 [debug] : [Program Flash Server] Disposing objects in backend. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/build'. 
+2026-05-21 02:01:12 [debug] : [Build Server] Disposing objects in backend. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/notification'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path 'services/rigel-backend-helper'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/aie'. 
+2026-05-21 02:01:12 [debug] : [AIE Server] Disposing objects in backend. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/analysis'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/recent-summaries'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/rigel_explorer'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/linker-script'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/rigel-logger'. 
+2026-05-21 02:01:12 [debug] : [Logger Server] Disposing objects in backend. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/platform'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/vitis-hls'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/device'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/mini-browser-service'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/flow_navigator'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/hls/common/data/info'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/hls/common/file/service'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/hls/report'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/hls/dataflow/info'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/hls/l1library/service'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/hls/directive'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/hls_flow'. 
+2026-05-21 02:01:12 [debug] : [Hls Flow Server] Disposing objects in backend. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/search-in-workspace'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/open-ai/language-model-manager'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/mcpservermanager'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/languageModelRegistryDelegatePath'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/languageModelDelegatePath'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/rigel-ai/language-model-manager'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/anthropic/language-model-manager'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/google/language-model-manager'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/huggingface/language-model-manager'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/llamafilemanager'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/ollama/language-model-manager'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/vercel-ai/language-model-manager'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/config-file'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/elf-reader'. 
+2026-05-21 02:01:12 [debug] : [Elf Reader Server] Disposing objects in backend. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/project-utils'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/bootgen'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/cdo-utils'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/report-model'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/hls/wave/open'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/scanoss/service'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/hls-config'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/keyStore'. 
+2026-05-21 02:01:12 [debug] : Closing channel on service path '/services/languagePackService'. 

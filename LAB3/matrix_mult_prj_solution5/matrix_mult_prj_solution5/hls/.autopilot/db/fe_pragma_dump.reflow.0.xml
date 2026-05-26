@@ -1,0 +1,5 @@
+<pragmas>
+<pragma file="../solution5/matrix_mult.cpp" line="16" pragmaType="pipeline" parentfunction="matrix_mult" off="0" ii="-1" style=""/>
+<pragma file="../solution5/matrix_mult.cpp" line="14" pragmaType="array_reshape" parentfunction="matrix_mult" dim="1" factor="0" mode="complete" variable="b"/>
+<pragma file="../solution5/matrix_mult.cpp" line="15" pragmaType="array_reshape" parentfunction="matrix_mult" dim="2" factor="0" mode="complete" variable="a"/>
+</pragmas>

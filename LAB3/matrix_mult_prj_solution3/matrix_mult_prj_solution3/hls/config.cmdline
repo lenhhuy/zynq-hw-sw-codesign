@@ -1,0 +1,3 @@
+relativeroot=D:/Semester_6/HWSW/LAB3/matrix_mult_prj_solution3
+original_argv=--mode hls --cosim --config D:\Semester_6\HWSW\LAB3\matrix_mult_prj_solution3\hls_config.cfg --work_dir matrix_mult_prj_solution3 
+

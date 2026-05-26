@@ -1,0 +1,157 @@
+<ENTRY>
+{
+ "thisFile": "D:/Semester_6\\HWSW\\LAB3\\matrix_mult_prj_solution4\\matrix_mult_prj_solution4\\matrix_mult_prj_solution4.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "05/25/26 11:36:02",
+ "timestampMillis": "1779683762684",
+ "buildStep": {
+  "cmdId": "c24390ad-691c-48b5-a110-35e324ca7fc4",
+  "name": "vitis-run",
+  "logFile": "D:/Semester_6\\HWSW\\LAB3\\matrix_mult_prj_solution4\\matrix_mult_prj_solution4\\logs\\matrix_mult_prj_solution4.steps.log",
+  "commandLine": "C:/AMDDesignTools/2025.2/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config D:\\Semester_6\\HWSW\\LAB3\\matrix_mult_prj_solution4\\hls_config.cfg --work_dir matrix_mult_prj_solution4 ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "D:\\Semester_6\\HWSW\\LAB3\\matrix_mult_prj_solution4\\hls_config.cfg",
+   "--work_dir",
+   "matrix_mult_prj_solution4"
+  ],
+  "iniFiles": [],
+  "cwd": "D:\\Semester_6\\HWSW\\LAB3\\matrix_mult_prj_solution4"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/25/26 11:36:02",
+ "timestampMillis": "1779683762684",
+ "status": {
+  "cmdId": "c24390ad-691c-48b5-a110-35e324ca7fc4",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "05/25/26 11:36:07",
+ "timestampMillis": "1779683767959",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "matrix_mult",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "D:/Semester_6\\HWSW\\LAB3\\solution4\\matrix_mult.cpp",
+     "D:/Semester_6\\HWSW\\LAB3\\solution4\\matrix_mult.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "05/25/26 11:36:07",
+ "timestampMillis": "1779683767960",
+ "buildStep": {
+  "cmdId": "98c2054b-f54e-41ce-a715-c4c9157ef6b6",
+  "name": "",
+  "logFile": "D:/Semester_6\\HWSW\\LAB3\\matrix_mult_prj_solution4\\matrix_mult_prj_solution4\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "D:\\Semester_6\\HWSW\\LAB3\\matrix_mult_prj_solution4"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/25/26 11:36:07",
+ "timestampMillis": "1779683767961",
+ "status": {
+  "cmdId": "98c2054b-f54e-41ce-a715-c4c9157ef6b6",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/25/26 11:36:09",
+ "timestampMillis": "1779683769735",
+ "status": {
+  "cmdId": "98c2054b-f54e-41ce-a715-c4c9157ef6b6",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "05/25/26 11:36:09",
+ "timestampMillis": "1779683769854",
+ "status": {
+  "cmdId": "c24390ad-691c-48b5-a110-35e324ca7fc4",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/25/26 11:36:09",
+ "timestampMillis": "1779683769854",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "05/25/26 11:36:09",
+ "timestampMillis": "1779683769855",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

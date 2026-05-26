@@ -479,3 +479,36 @@
 10:10:13 INFO  : Initiating build for the interrupt_counter component.
 10:10:13 INFO  : cmd.exe, /C, empyro.bat build_app -s d:\Semester_6\HWSW\LAB2\interrupt_counter\src -b d:\Semester_6\HWSW\LAB2\interrupt_counter\build
 10:10:13 INFO  : Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s d:\Semester_6\HWSW\LAB2\interrupt_counter\src -b d:\Semester_6\HWSW\LAB2\interrupt_counter\build
+02:00:48 INFO  : updated workspace path: D:\Semester_6\HWSW\LAB2
+02:00:49 INFO  : [INFO]: Initializing repositories
+02:00:49 INFO  : [INFO]: Successfully set the EmbeddedSW path, refer .repo.yaml for more details.
+02:00:49 INFO  : Successfully created repository data at C:\Users\ADMIN\AppData\Local\Temp\rigel_lopper_ADMIN15008805817654347801
+02:00:49 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\ADMIN\AppData\Local\Temp\rigel_lopper_ADMIN1472591703579081489 -r C:\Users\ADMIN\AppData\Local\Temp\rigel_lopper_ADMIN15008805817654347801\.repo.yaml
+02:00:50 INFO  : Embedded Template List generated successfully
+02:00:50 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\ADMIN\AppData\Local\Temp\rigel_lopper_ADMIN5761010234848164548 -r D:\Semester_6\HWSW\LAB2\_ide\.wsdata\.repo.yaml
+02:00:50 INFO  : Embedded Template List generated successfully
+02:00:57 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+02:00:57 INFO  : Generating BSP for the domain D:\Semester_6\HWSW\LAB2\zynq_interrupt_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+02:00:57 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d D:\Semester_6\HWSW\LAB2\zynq_interrupt_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+02:00:57 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d D:\Semester_6\HWSW\LAB2\zynq_interrupt_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+02:00:58 INFO  : Domain reconfigured successfully
+02:00:58 INFO  : Generating BSP for the domain D:\Semester_6\HWSW\LAB2\zynq_interrupt_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+02:00:58 INFO  : lopper command to build BSP :empyro.bat build_bsp -d D:\Semester_6\HWSW\LAB2\zynq_interrupt_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+02:00:58 INFO  : cmd.exe, /C, empyro.bat build_bsp -d D:\Semester_6\HWSW\LAB2\zynq_interrupt_platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+02:01:03 INFO  : Domain build successfully
+02:01:03 INFO  : Generating Boot ELFs
+02:01:03 INFO  : Generating Export directory
+02:01:04 INFO  : Platform Build Finished successfully.
+02:01:04 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s d:\Semester_6\HWSW\LAB2\interrupt_counter\src -d D:\Semester_6\HWSW\LAB2\zynq_interrupt_platform\export\zynq_interrupt_platform\sw\standalone_ps7_cortexa9_0 -b d:\Semester_6\HWSW\LAB2\interrupt_counter\build
+02:01:04 INFO  : cmd.exe, /C, empyro.bat retarget_app -s d:\Semester_6\HWSW\LAB2\interrupt_counter\src -d D:\Semester_6\HWSW\LAB2\zynq_interrupt_platform\export\zynq_interrupt_platform\sw\standalone_ps7_cortexa9_0 -b d:\Semester_6\HWSW\LAB2\interrupt_counter\build
+02:01:04 INFO  : [INFO]: Retargeting app
+02:01:04 INFO  : [INFO]: Updating link libraries based on new domain
+02:01:04 INFO  : Successfully retargeted Application d:\Semester_6\HWSW\LAB2\interrupt_counter\src
+02:01:04 INFO  : Initiating build for the interrupt_counter component.
+02:01:04 INFO  : cmd.exe, /C, empyro.bat build_app -s d:\Semester_6\HWSW\LAB2\interrupt_counter\src -b d:\Semester_6\HWSW\LAB2\interrupt_counter\build
+02:01:04 INFO  : Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s d:\Semester_6\HWSW\LAB2\interrupt_counter\src -b d:\Semester_6\HWSW\LAB2\interrupt_counter\build
+02:01:12 INFO  : connection terminated
+02:01:12 INFO  : connection terminated
+02:01:12 INFO  : scheduling shutdown timer for 2 seconds ...
+02:01:14 INFO  : Terminating Vitis C++ Server
+02:01:14 INFO  : Vitis C++ Server terminated

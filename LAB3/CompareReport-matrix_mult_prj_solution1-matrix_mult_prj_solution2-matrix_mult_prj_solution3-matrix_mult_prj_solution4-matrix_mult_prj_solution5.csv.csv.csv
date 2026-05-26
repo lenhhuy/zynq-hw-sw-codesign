@@ -1,0 +1,52 @@
+Name,matrix_mult_prj_solution1,matrix_mult_prj_solution2,matrix_mult_prj_solution3,matrix_mult_prj_solution4,matrix_mult_prj_solution5
+Part,xc7z010clg400-1,xc7z010clg400-1,xc7z010clg400-1,xc7z010clg400-1,xc7z010clg400-1
+Path,D:\Semester_6\HWSW\LAB3\matrix_mult_prj,D:\Semester_6\HWSW\LAB3\matrix_mult_prj_solution2,D:\Semester_6\HWSW\LAB3\matrix_mult_prj_solution3,D:\Semester_6\HWSW\LAB3\matrix_mult_prj_solution4,D:\Semester_6\HWSW\LAB3\matrix_mult_prj_solution5
+syn: Status,completed,completed,completed,completed,completed
+syn: Clock Target (ns),10,10,10,10,10
+syn: Clock Uncertainty (ns),2.7,2.7,2.7,2.7,2.7
+syn: Clock Achieved (ns),3.404,7.014,5.998,6.27,6.27
+syn: Interval (cycles),687,129,75,25,13
+syn: Latency (cycles),686,131,81,31,21
+syn: Latency (ns),6860,1310,810,310,210
+syn: BRAM,0,0,0,0,0
+syn: DSP,1,1,3,3,75
+syn: FF,55,254,148,255,2031
+syn: LUT,203,401,512,335,3038
+syn: URAM,0,0,0,0,0
+cosim: Status,completed,completed,completed,completed,completed
+cosim: Interval min/max/avg (cycles),,,,,
+cosim: Latency min/max/avg (cycles),686/686/686,129/129/129,79/79/79,29/29/29,21/21/21
+cosim: Total Time,686,129,79,29,21
+impl syn: Status,default,default,default,default,default
+impl syn: DSP, , , , , 
+impl syn: BRAM, , , , , 
+impl syn: URAM, , , , , 
+impl syn: FF, , , , , 
+impl syn: LUT, , , , , 
+impl syn: Clock Target (ns), , , , , 
+impl syn: Clock Achieved (ns), , , , , 
+impl pnr: Status,default,default,default,default,default
+impl pnr: DSP, , , , , 
+impl pnr: BRAM, , , , , 
+impl pnr: URAM, , , , , 
+impl pnr: FF, , , , , 
+impl pnr: LUT, , , , , 
+impl pnr: Clock Target (ns), , , , , 
+impl pnr: Clock Achieved (ns), , , , , 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

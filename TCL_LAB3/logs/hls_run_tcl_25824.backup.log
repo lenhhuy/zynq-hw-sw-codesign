@@ -1,0 +1,38 @@
+  **** HLS Build v2025.2 6295257
+Sourcing Tcl script 'D:/Semester_6/HWSW/TCL_LAB3/script.tcl'
+INFO: [HLS 200-1510] Running: open_project -reset matrix_mult_automation_prj 
+WARNING: [HLS 200-2182] The 'matrix_mult_automation_prj' project will not automatically appear within Vitis IDE workspaces and is meant only for TCL batch use.  Please use open_component instead of open_project/open_solution to generate Vitis IDE compatible component files and directory structure.
+Resolution: For help on HLS 200-2182 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-2182.html
+INFO: [HLS 200-10] Creating and opening solution 'D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj'.
+INFO: [HLS 200-1510] Running: set_top matrix_mult 
+INFO: [HLS 200-1510] Running: add_files matrix_mult.cpp 
+WARNING: [HLS 200-40] Cannot find design file 'matrix_mult.cpp'
+INFO: [HLS 200-1510] Running: add_files -tb matrix_mult_test.cpp 
+WARNING: [HLS 200-40] Cannot find test bench file 'matrix_mult_test.cpp'
+INFO: [HLS 200-1510] Running: open_solution -reset Solution1 -flow_target vivado 
+INFO: [HLS 200-10] Creating and opening solution 'D:/Semester_6/HWSW/TCL_LAB3/matrix_mult_automation_prj/Solution1'.
+INFO: [HLS 200-10] Cleaning up the solution database.
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1510] Running: set_part xc7z010clg400-1 
+INFO: [HLS 200-1611] Setting target device to 'xc7z010-clg400-1'
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: config_compile -pipeline_loops 0 
+INFO: [HLS 200-1510] Running: csynth_design 
+WARNING: [HLS 200-40] Cannot find source file matrix_mult.cpp; skipping it.
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.021 seconds; current allocated memory: 380.230 MB.
+INFO: [HLS 200-2191] C-Synthesis will use clang-16 as the compiler
+WARNING: [HLS 200-1986] Could not apply TOP directive, invalid function, label, or variable (D:/Semester_6/HWSW/TCL_LAB3/script.tcl:20)
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.022 seconds; current allocated memory: 380.574 MB.
+ERROR: [HLS 200-70] Cannot find any design unit to elaborate.
+INFO: [HLS 200-2161] Finished Command csynth_design Elapsed time: 00:00:00; Allocated memory: 0.598 MB.
+Error in linking the design.
+    while executing
+"source D:/Semester_6/HWSW/TCL_LAB3/script.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel \#0 [list source $tclfile] "
+
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 3.28 seconds; peak allocated memory: 380.777 MB.
+INFO: [vitis-run 60-1662] Stopping dispatch session having empty uuid.

@@ -1,0 +1,20 @@
+{
+    "0": {
+        "name": "matrix_mult",
+        "file": "..\/solution5\/matrix_mult.cpp",
+        "fileloc": "12",
+        "instructions": "404",
+        "total_instructions": "404",
+        "calls": "",
+        "basicblocks": "1",
+        "memory_accesses": "35",
+        "control_depth": "0",
+        "def_use_depth": "7",
+        "loads": {
+            "T": "10"
+        },
+        "stores": {
+            "T": "25"
+        }
+    }
+}
