@@ -1,0 +1,4 @@
+D:/Semester_6/HWSW/LAB4/vitis/led_platform/zynq_fsbl/build/CMakeFiles/fsbl.elf.dir
+D:/Semester_6/HWSW/LAB4/vitis/led_platform/zynq_fsbl/build/CMakeFiles/print_build_info.dir
+D:/Semester_6/HWSW/LAB4/vitis/led_platform/zynq_fsbl/build/CMakeFiles/edit_cache.dir
+D:/Semester_6/HWSW/LAB4/vitis/led_platform/zynq_fsbl/build/CMakeFiles/rebuild_cache.dir
