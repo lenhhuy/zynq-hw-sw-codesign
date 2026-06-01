@@ -1,0 +1,27 @@
+[
+  {
+    "directory": "D:\\Semester_6\\HWSW\\LAB4\\lab4c\\hls_nco",
+    "arguments": [
+      "C:\\AMDDesignTools\\2025.2\\Vitis\\win64\\tools\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\AMDDesignTools\\2025.2\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\AMDDesignTools\\2025.2\\Vitis\\common\\technology\\autopilot",
+      "-fhlstoplevel=nco",
+      "-c",
+      "D:\\Semester_6\\HWSW\\LAB4\\lab4c\\nco.cpp"
+    ],
+    "file": "D:\\Semester_6\\HWSW\\LAB4\\lab4c\\nco.cpp"
+  },
+  {
+    "directory": "D:\\Semester_6\\HWSW\\LAB4\\lab4c\\hls_nco",
+    "arguments": [
+      "C:\\AMDDesignTools\\2025.2\\Vitis\\win64\\tools\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\AMDDesignTools\\2025.2\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=C:\\AMDDesignTools\\2025.2\\Vitis\\include",
+      "-c",
+      "D:\\Semester_6\\HWSW\\LAB4\\lab4c\\nco_test.cpp"
+    ],
+    "file": "D:\\Semester_6\\HWSW\\LAB4\\lab4c\\nco_test.cpp"
+  }
+]

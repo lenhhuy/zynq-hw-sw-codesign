@@ -1,0 +1,43 @@
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: 'D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco/hls/.autopilot/db\nco.pp.0.cpp', 
+                   Line: 0, Column: 0 }
+Function:        _GLOBAL__sub_I_nco.pp.0.cpp
+Args:            
+  - Callee:          __cxx_global_var_init
+    DebugLoc:        { File: 'D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco/hls/.autopilot/db\nco.pp.0.cpp', 
+                       Line: 0, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          _GLOBAL__sub_I_nco.pp.0.cpp
+    DebugLoc:        { File: 'D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco/hls/.autopilot/db\nco.pp.0.cpp', 
+                       Line: 0, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: 'D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco/hls/.autopilot/db\nco.pp.0.cpp', 
+                   Line: 0, Column: 0 }
+Function:        _GLOBAL__sub_I_nco.pp.0.cpp
+Args:            
+  - Callee:          __cxx_global_var_init.1
+    DebugLoc:        { File: 'D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco/hls/.autopilot/db\nco.pp.0.cpp', 
+                       Line: 0, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          _GLOBAL__sub_I_nco.pp.0.cpp
+    DebugLoc:        { File: 'D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco/hls/.autopilot/db\nco.pp.0.cpp', 
+                       Line: 0, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+Function:        apatb_nco_ir
+Args:            
+  - Callee:          'nco(ap_fixed<16, 2, (ap_q_mode)5, (ap_o_mode)3, 0>*, ap_ufixed<16, 12, (ap_q_mode)5, (ap_o_mode)3, 0>)'
+    DebugLoc:        { File: ../nco.cpp, Line: 421, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          apatb_nco_ir
+  - String:          ' because it should never be inlined (cost=never)'
+...
