@@ -1,0 +1,156 @@
+<ENTRY>
+{
+ "thisFile": "D:/Semester_6\\HWSW\\LAB4\\lab4c\\hls_nco\\nco\\nco.hlsrun_csim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "06/01/26 09:18:53",
+ "timestampMillis": "1780280333347",
+ "buildStep": {
+  "cmdId": "7d614566-e8db-4d2c-a5fb-b5212e8906bf",
+  "name": "vitis-run",
+  "logFile": "D:/Semester_6\\HWSW\\LAB4\\lab4c\\hls_nco\\nco\\logs\\nco.steps.log",
+  "commandLine": "C:/AMDDesignTools/2025.2/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config D:\\Semester_6\\HWSW\\LAB4\\lab4c\\hls_nco\\hls_config.cfg --work_dir nco ",
+  "args": [
+   "--mode",
+   "hls",
+   "--csim",
+   "--config",
+   "D:\\Semester_6\\HWSW\\LAB4\\lab4c\\hls_nco\\hls_config.cfg",
+   "--work_dir",
+   "nco"
+  ],
+  "iniFiles": [],
+  "cwd": "D:\\Semester_6\\HWSW\\LAB4\\lab4c\\hls_nco"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/01/26 09:18:53",
+ "timestampMillis": "1780280333347",
+ "status": {
+  "cmdId": "7d614566-e8db-4d2c-a5fb-b5212e8906bf",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "06/01/26 09:18:57",
+ "timestampMillis": "1780280337912",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_C_SIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "nco",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "D:/Semester_6\\HWSW\\LAB4\\lab4c\\nco.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "06/01/26 09:18:57",
+ "timestampMillis": "1780280337913",
+ "buildStep": {
+  "cmdId": "31cd39b5-9bab-4d53-b382-9cab875ab721",
+  "name": "",
+  "logFile": "D:/Semester_6\\HWSW\\LAB4\\lab4c\\hls_nco\\nco\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "D:\\Semester_6\\HWSW\\LAB4\\lab4c\\hls_nco"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/01/26 09:18:57",
+ "timestampMillis": "1780280337913",
+ "status": {
+  "cmdId": "31cd39b5-9bab-4d53-b382-9cab875ab721",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/01/26 09:19:04",
+ "timestampMillis": "1780280344555",
+ "status": {
+  "cmdId": "31cd39b5-9bab-4d53-b382-9cab875ab721",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/01/26 09:19:04",
+ "timestampMillis": "1780280344685",
+ "status": {
+  "cmdId": "7d614566-e8db-4d2c-a5fb-b5212e8906bf",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/01/26 09:19:04",
+ "timestampMillis": "1780280344685",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/01/26 09:19:04",
+ "timestampMillis": "1780280344685",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

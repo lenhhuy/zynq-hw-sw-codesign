@@ -1,0 +1,36 @@
+  **** HLS Build v2025.2 6295257
+INFO: [HLS 200-2005] Using work_dir D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco 
+INFO: [HLS 200-2176] Writing Vitis IDE component file D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco'.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=D:/Semester 6/COMBINED HW AND SW DESIGN/lab4c/nco.cpp' from hls_config.cfg(8)
+WARNING: [HLS 200-40] Cannot find design file 'D:/Semester'
+WARNING: [HLS 200-40] Cannot find design file '6/COMBINED'
+WARNING: [HLS 200-40] Cannot find design file 'HW'
+WARNING: [HLS 200-40] Cannot find design file 'AND'
+WARNING: [HLS 200-40] Cannot find design file 'SW'
+WARNING: [HLS 200-40] Cannot find design file 'DESIGN/lab4c/nco.cpp'
+INFO: [HLS 200-1465] Applying config ini 'tb.file=D:/Semester 6/COMBINED HW AND SW DESIGN/lab4c/nco_test.cpp' from hls_config.cfg(9)
+WARNING: [HLS 200-40] Cannot find test bench file 'D:/Semester'
+WARNING: [HLS 200-40] Cannot find test bench file '6/COMBINED'
+WARNING: [HLS 200-40] Cannot find test bench file 'HW'
+WARNING: [HLS 200-40] Cannot find test bench file 'AND'
+WARNING: [HLS 200-40] Cannot find test bench file 'SW'
+WARNING: [HLS 200-40] Cannot find test bench file 'DESIGN/lab4c/nco_test.cpp'
+INFO: [HLS 200-1465] Applying config ini 'syn.top=nco' from hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z010clg400-1' from hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7z010-clg400-1'
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
+INFO: [HLS 200-2176] Writing Vitis IDE component file D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco/vitis-comp.json
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [HLS 200-2191] C-Simulation will use clang-16 as the compiler
+ERROR: [HLS 200-627] Cannot find C test bench. Please specify test bench files using 'add_files -tb'.
+ERROR: [SIM 211-100] CSim failed with errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+ERROR: CSIM Failed
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 1 seconds. Total elapsed time: 4.367 seconds; peak allocated memory: 385.645 MB.

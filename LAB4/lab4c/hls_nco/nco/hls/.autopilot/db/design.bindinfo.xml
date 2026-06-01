@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BindInfo>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op add" ID="" IMPL="fabric" LATENCY="0" OPTYPE="add" PRAGMA="" RTLNAME="add_ln430_fu_67_p2" SOURCE="../nco.cpp:430" VARIABLE="add_ln430" MODULE="nco" LOOP="" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0" USAGE="" STORAGESUBTYPE="" STORAGESIZE=""/>
+	<BindNode BINDTYPE="storage" DISPLAY="bind_storage rom_1p" ID="" IMPL="auto" LATENCY="1" OPTYPE="rom_1p" PRAGMA="" RTLNAME="sine_lut_U" SOURCE="" VARIABLE="sine_lut" MODULE="nco" LOOP="" BUNDLEDNAME="" DSP="0" BRAM="4" URAM="0" USAGE="" STORAGESUBTYPE="" STORAGESIZE="16 4096 1"/>
+</BindInfo>

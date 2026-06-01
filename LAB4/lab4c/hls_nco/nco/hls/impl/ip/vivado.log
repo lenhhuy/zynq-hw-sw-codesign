@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Mon Jun  1 09:20:27 2026
+# Process ID         : 1888
+# Current directory  : D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco/hls/impl/ip
+# Command line       : vivado.exe -notrace -mode batch -source run_ippack.tcl
+# Log file           : D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco/hls/impl/ip/vivado.log
+# Journal file       : D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco/hls/impl/ip\vivado.jou
+# Running On         : NhatHuy
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i9-13900HX
+# CPU Frequency      : 2419 MHz
+# CPU Physical cores : 24
+# CPU Logical cores  : 32
+# Host memory        : 31890 MB
+# Swap memory        : 11811 MB
+# Total Virtual      : 43702 MB
+# Available Virtual  : 17223 MB
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace
+INFO: calling package_hls_ip ip_types=vitis sysgen json_file=D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco/hls/hls_data.json outdir=D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco/hls/impl/ip srcdir=D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco/hls ippack_options_dict= ippack_options_dict=
+INFO: Copied 1 ipmisc file(s) to D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco/hls/impl/ip/misc
+INFO: Copied 3 verilog file(s) to D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco/hls/impl/ip/hdl/verilog
+INFO: Copied 2 vhdl file(s) to D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco/hls/impl/ip/hdl/vhdl
+ipx::create_core: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 609.688 ; gain = 215.074
+INFO: Import ports from HDL: D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco/hls/impl/ip/hdl/vhdl/nco.vhd (nco)
+INFO: Add clock interface ap_clk
+INFO: Add reset interface ap_rst
+INFO: Add ap_ctrl interface ap_ctrl
+INFO: Add data interface sine_sample
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/AMDDesignTools/2025.2/Vivado/data/ip'.
+INFO: Add data interface step_size
+INFO: Calling post_process_vitis to specialize IP
+INFO: Calling post_process_sysgen to specialize IP
+Generating sysgen info xml from json file
+INFO: Created IP D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco/hls/impl/ip/component.xml
+INFO: Created IP archive D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco/hls/impl/ip/xilinx_com_hls_nco_1_0.zip
+INFO: [Common 17-206] Exiting Vivado at Mon Jun  1 09:20:37 2026...

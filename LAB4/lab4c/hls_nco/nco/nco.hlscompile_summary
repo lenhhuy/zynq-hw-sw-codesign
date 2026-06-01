@@ -1,0 +1,245 @@
+<ENTRY>
+{
+ "thisFile": "D:/Semester_6\\HWSW\\LAB4\\lab4c\\hls_nco\\nco\\nco.hlscompile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "06/01/26 09:19:29",
+ "timestampMillis": "1780280369134",
+ "buildStep": {
+  "cmdId": "b63c888c-ab44-4e42-b1af-f591d2d13f9f",
+  "name": "v++",
+  "logFile": "D:/Semester_6\\HWSW\\LAB4\\lab4c\\hls_nco\\nco\\logs\\nco.steps.log",
+  "commandLine": "C:/AMDDesignTools/2025.2/Vitis/bin/unwrapped/win64.o/v++.exe  -c --mode hls --config D:\\Semester_6\\HWSW\\LAB4\\lab4c\\hls_nco\\hls_config.cfg --work_dir nco ",
+  "args": [
+   "-c",
+   "--mode",
+   "hls",
+   "--config",
+   "D:\\Semester_6\\HWSW\\LAB4\\lab4c\\hls_nco\\hls_config.cfg",
+   "--work_dir",
+   "nco"
+  ],
+  "iniFiles": [
+   {
+    "path": "D:/Semester_6\\HWSW\\LAB4\\lab4c\\hls_nco\\hls_config.cfg",
+    "content": "part=xc7z010clg400-1\n\n[hls]\nflow_target=vivado\npackage.output.format=ip_catalog\npackage.output.syn=false\nsyn.top=nco\nsyn.file=../nco.cpp\ntb.file=../nco_test.cpp"
+   }
+  ],
+  "cwd": "D:\\Semester_6\\HWSW\\LAB4\\lab4c\\hls_nco"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/01/26 09:19:29",
+ "timestampMillis": "1780280369134",
+ "status": {
+  "cmdId": "b63c888c-ab44-4e42-b1af-f591d2d13f9f",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "06/01/26 09:19:33",
+ "timestampMillis": "1780280373758",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "nco",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "D:/Semester_6\\HWSW\\LAB4\\lab4c\\nco.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2025.2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "06/01/26 09:19:33",
+ "timestampMillis": "1780280373759",
+ "buildStep": {
+  "cmdId": "31472e7b-2ad5-4edd-aef6-1494ba0c8338",
+  "name": "",
+  "logFile": "D:/Semester_6\\HWSW\\LAB4\\lab4c\\hls_nco\\nco\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "D:\\Semester_6\\HWSW\\LAB4\\lab4c\\hls_nco"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/01/26 09:19:33",
+ "timestampMillis": "1780280373759",
+ "status": {
+  "cmdId": "31472e7b-2ad5-4edd-aef6-1494ba0c8338",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/01/26 09:19:33",
+ "timestampMillis": "1780280373759",
+ "report": {
+  "path": "D:/Semester_6\\HWSW\\LAB4\\lab4c\\hls_nco\\nco\\hls\\hls_data.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/01/26 09:19:33",
+ "timestampMillis": "1780280373759",
+ "report": {
+  "path": "D:/Semester_6\\HWSW\\LAB4\\lab4c\\hls_nco\\nco\\hls\\syn\\report\\csynth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/01/26 09:19:33",
+ "timestampMillis": "1780280373759",
+ "report": {
+  "path": "D:/Semester_6\\HWSW\\LAB4\\lab4c\\hls_nco\\nco\\hls\\syn\\report\\csynth.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/01/26 09:19:51",
+ "timestampMillis": "1780280391623",
+ "report": {
+  "path": "D:/Semester_6\\HWSW\\LAB4\\lab4c\\hls_nco\\nco\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/01/26 09:19:51",
+ "timestampMillis": "1780280391623",
+ "report": {
+  "path": "D:/Semester_6\\HWSW\\LAB4\\lab4c\\hls_nco\\nco\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/01/26 09:19:51",
+ "timestampMillis": "1780280391624",
+ "report": {
+  "path": "D:/Semester_6\\HWSW\\LAB4\\lab4c\\hls_nco\\nco\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_SCHEDULE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/01/26 09:19:51",
+ "timestampMillis": "1780280391624",
+ "status": {
+  "cmdId": "31472e7b-2ad5-4edd-aef6-1494ba0c8338",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "06/01/26 09:19:51",
+ "timestampMillis": "1780280391746",
+ "status": {
+  "cmdId": "b63c888c-ab44-4e42-b1af-f591d2d13f9f",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/01/26 09:19:51",
+ "timestampMillis": "1780280391767",
+ "report": {
+  "path": "D:/Semester_6\\HWSW\\LAB4\\lab4c\\hls_nco\\nco\\reports\\v++_compile_nco_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "06/01/26 09:19:51",
+ "timestampMillis": "1780280391768",
+ "report": {
+  "path": "D:/Semester_6\\HWSW\\LAB4\\lab4c\\hls_nco\\nco\\reports\\.db\\v++_compile_nco_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

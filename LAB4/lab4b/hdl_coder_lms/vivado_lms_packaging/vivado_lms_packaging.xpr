@@ -49,6 +49,7 @@
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
     <Option Name="IPRepoPath" Val="$PPRDIR/../hdl_prj/ipcore/LMS_ip_v1_0"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../../../lab4c/hls_nco/nco/hls/impl/ip"/>
     <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
     <Option Name="IPDefaultOutputPath" Val="$PGENDIR/sources_1"/>
     <Option Name="IPCachePermission" Val="read"/>

@@ -1,0 +1,53 @@
+  **** HLS Build v2025.2 6295257
+INFO: [HLS 200-2005] Using work_dir D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco 
+INFO: [HLS 200-2176] Writing Vitis IDE component file D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco'.
+INFO: [HLS 200-1611] Setting target device to 'xc7z010-clg400-1'
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../nco.cpp' from hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'D:/Semester_6/HWSW/LAB4/lab4c/nco.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../nco_test.cpp' from hls_config.cfg(9)
+INFO: [HLS 200-10] Adding test bench file 'D:/Semester_6/HWSW/LAB4/lab4c/nco_test.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=nco' from hls_config.cfg(7)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z010clg400-1' from hls_config.cfg(1)
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
+INFO: [HLS 200-2176] Writing Vitis IDE component file D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco/vitis-comp.json
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Mon Jun  1 09:20:27 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: calling package_hls_ip ip_types=vitis sysgen json_file=D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco/hls/hls_data.json outdir=D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco/hls/impl/ip srcdir=D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco/hls ippack_options_dict= ippack_options_dict=
+INFO: Copied 1 ipmisc file(s) to D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco/hls/impl/ip/misc
+INFO: Copied 3 verilog file(s) to D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco/hls/impl/ip/hdl/verilog
+INFO: Copied 2 vhdl file(s) to D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco/hls/impl/ip/hdl/vhdl
+ipx::create_core: Time (s): cpu = 00:00:08 ; elapsed = 00:00:05 . Memory (MB): peak = 609.688 ; gain = 215.074
+INFO: Import ports from HDL: D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco/hls/impl/ip/hdl/vhdl/nco.vhd (nco)
+INFO: Add clock interface ap_clk
+INFO: Add reset interface ap_rst
+INFO: Add ap_ctrl interface ap_ctrl
+INFO: Add data interface sine_sample
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/AMDDesignTools/2025.2/Vivado/data/ip'.
+INFO: Add data interface step_size
+INFO: Calling post_process_vitis to specialize IP
+INFO: Calling post_process_sysgen to specialize IP
+Generating sysgen info xml from json file
+INFO: Created IP D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco/hls/impl/ip/component.xml
+INFO: Created IP archive D:/Semester_6/HWSW/LAB4/lab4c/hls_nco/nco/hls/impl/ip/xilinx_com_hls_nco_1_0.zip
+INFO: [Common 17-206] Exiting Vivado at Mon Jun  1 09:20:37 2026...
+INFO: [HLS 200-802] Generated output file nco/nco.zip
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 2 seconds. Total elapsed time: 14.611 seconds; peak allocated memory: 450.426 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 18s
