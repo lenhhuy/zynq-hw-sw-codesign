@@ -45,9 +45,9 @@ Tổng hợp các bài thực hành môn **Thiết kế kết hợp Phần cứn
 | Lab | Tên | Nội dung chính | Trạng thái |
 |-----|-----|----------------|------------|
 | [Lab 1](./LAB_1/) | First Designs on Zynq | PS điều khiển 4 LED qua AXI GPIO | ✅ |
-| [Lab 2](./LAB2/) |  
-| [Lab 3](./LAB3/) |  
-| [Lab 4](./LAB4/) |  
+| [Lab 2](./LAB2/) | Interrupt | Thiết kế hệ thống interrupt-based | ✅ | 
+| [Lab 3](./LAB3/) | Designing With Vivado High Level Synthesis | High Level Synthesis | ✅ | 
+| [Lab 4](./LAB4/) | IP Creation | Thiết kế IP bằng HDL, Simulink HDL Coder và Vivado HLS | ✅ | 
 ---
 ## Quy trình HW/SW Co-design trên Zynq
 
