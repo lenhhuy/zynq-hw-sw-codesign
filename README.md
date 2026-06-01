@@ -45,9 +45,9 @@ Tổng hợp các bài thực hành môn **Thiết kế kết hợp Phần cứn
 | Lab | Tên | Nội dung chính | Trạng thái |
 |-----|-----|----------------|------------|
 | [Lab 1](./LAB_1/) | First Designs on Zynq | PS điều khiển 4 LED qua AXI GPIO | ✅ |
-| [Lab 2](./LAB_2/) | *(cập nhật sau)* | — | 🔜 |
-| [Lab 3](./LAB_3/) | *(cập nhật sau)* | — | 🔜 |
-| [Lab 4](./LAB_4/) | *(cập nhật sau)* | — | 🔜 |
+| [Lab 2](./LAB2/) |  
+| [Lab 3](./LAB3/) |  
+| [Lab 4](./LAB4/) |  
 ---
 ## Quy trình HW/SW Co-design trên Zynq
 
